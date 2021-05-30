@@ -5,6 +5,11 @@ on:
     branches: [ develop ]
 
 jobs:
+  setup:
+    runs-on: ubuntu-latest
+    steps:
+    - run: yarn add @quasar/cli
+
   build:
     runs-on: ubuntu-latest
     steps:
