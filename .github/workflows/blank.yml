@@ -6,8 +6,5 @@ on:
 
 jobs:
   build:
-    - name: Build quasar
-      run: quasar build
-
-    - name: Push on master
-      run: yarn dev
+    - run: quasar build
+    - run: yarn dev
