@@ -12,8 +12,9 @@ jobs:
     - run: yarn install
     - run: yarn build
     - run: ls
-    - run: cd dist
-    - run: ls
+    - run: |
+        cd dist
+        ls
     - run: git config --global user.name Shiropetite
     - run: git add --all
     - run: git commit -m "Deploy on master updated"
