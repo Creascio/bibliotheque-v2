@@ -5,14 +5,12 @@ on:
     branches: [ develop ]
 
 jobs:
-  setup:
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
     - run: yarn install
-
-  build:
-    runs-on: ubuntu-latest
-    steps:
     - run: cd ..
     - run: yarn build:spa
     - run: yarn dev
+
+   
