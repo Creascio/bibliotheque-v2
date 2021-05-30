@@ -8,11 +8,10 @@ jobs:
   setup:
     runs-on: ubuntu-latest
     steps:
-    - run: yarn
-    - run: cd ..
+    - run: yarn install
 
   build:
     runs-on: ubuntu-latest
     steps:
-    - run: yarn build
+    - run: yarn build:spa
     - run: yarn dev
