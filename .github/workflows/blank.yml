@@ -9,6 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - run: yarn add @quasar/cli
+    - run: yarn
 
   build:
     runs-on: ubuntu-latest
