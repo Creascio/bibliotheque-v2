@@ -17,6 +17,6 @@ jobs:
         ls
         git add --all
         git commit -m "Deploy on master updated"
-        git push origin master
+        git push master
 
    
