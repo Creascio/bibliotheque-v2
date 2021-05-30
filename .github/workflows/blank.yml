@@ -1,0 +1,13 @@
+name: Deploy to Github Pages
+
+on:
+  push:
+    branches: [ develop ]
+
+jobs:
+  build:
+    - name: Build quasar
+      run: quasar buil
+
+    - name: Push on master
+      run: yarn dev
