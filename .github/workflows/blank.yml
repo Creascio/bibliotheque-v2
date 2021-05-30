@@ -6,5 +6,7 @@ on:
 
 jobs:
   build:
+    runs-on: ubuntu-latest
+    steps:
     - run: quasar build
     - run: yarn dev
