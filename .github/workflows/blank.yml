@@ -11,6 +11,7 @@ jobs:
     - uses: actions/checkout@master
     - run: yarn install
     - run: yarn build
+    - run: ls
     - run: cd dist
     - run: ls
     - run: git config --global user.name Shiropetite
