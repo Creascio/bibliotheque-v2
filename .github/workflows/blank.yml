@@ -10,7 +10,6 @@ jobs:
     steps:
     - uses: actions/checkout@develop
     - run: yarn install
-    needs: checkout
     - run: cd ..
     - run: cd ..
     - run: yarn build:spa
