@@ -4,7 +4,7 @@
       <q-toolbar>
 
         <q-toolbar-title>
-          Bibliotheque
+          Bibliotheque v2
         </q-toolbar-title>
 
         <div>Quasar v{{ $q.version }}</div>
