@@ -9,6 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - run: yarn
+    - run: cd ..
 
   build:
     runs-on: ubuntu-latest
