@@ -11,6 +11,9 @@ jobs:
     - uses: actions/checkout@master
     - run: yarn install
     - run: yarn build
-    - run: yarn deploy
+    - run: cd dist
+    - run: git add --all
+    - run: git commit -m "Deploy on gh-pages updated"
+    - run: git push origin master
 
    

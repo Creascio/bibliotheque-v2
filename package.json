@@ -8,7 +8,7 @@
   "scripts": {
     "test": "echo \"No test specified\" && exit 0",
     "build": "quasar build",
-    "deploy": "push-dir --dir=bibliotheque-v2/dist/spa --branch=prout"
+    "deploy": "push-dir --dir=bibliotheque-v2/dist/spa --branch=master"
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",
