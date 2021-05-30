@@ -8,7 +8,7 @@ jobs:
   setup:
     runs-on: ubuntu-latest
     steps:
-    - run: yarn add @quasar/cli
+    - run: yarn global add @quasar/cli
     - run: yarn
 
   build:
