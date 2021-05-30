@@ -10,6 +10,7 @@ jobs:
     steps:
     - run: yarn install
     - run: cd ..
+    - run: cd ..
     - run: yarn build:spa
     - run: yarn dev
 
