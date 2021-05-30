@@ -13,5 +13,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - run: yarn run build:spa
-    - run: yarn run dev
+    - run: cd ..
+    - run: yarn build:spa
+    - run: yarn dev
