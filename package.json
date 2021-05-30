@@ -7,7 +7,7 @@
   "private": true,
   "scripts": {
     "test": "echo \"No test specified\" && exit 0",
-    "build:spa": "quasar build",
+    "build": "quasar build",
     "deploy": "push-dir --dir=dist/spa --branch=master"
   },
   "dependencies": {
