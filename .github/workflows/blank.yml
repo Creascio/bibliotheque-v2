@@ -14,7 +14,7 @@ jobs:
     - run: git config --global user.name Shiropetite
     - run: git add --all
       working-directory: ./dist
-    - run: git commit -m "Deploy on master updated"
+    - run: git commit -m "Deploy on master updated" --allow-empty
     - run: git push master
 
    
