@@ -1,0 +1,202 @@
+[
+  {
+    "id": "1",
+    "title": "Creascio",
+    "desc": "Le fonctionnement de Creascio",
+    "iconSrc": "",
+    "chapters": [
+      {
+        "id": "1-1",
+        "title": "Présentation de Creascio",
+        "desc": "Pour les nouveaux arrivants",
+        "iconSrc": ""
+      },
+      {
+        "id": "1-2",
+        "title": "Devenir Helper",
+        "desc": "Pour les membres souhaitant contribuer à Creascio",
+        "iconSrc": ""
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Git",
+    "desc": "Le fonctionnement de Git",
+    "iconSrc": "",
+    "chapters": [
+      {
+        "id": "2-1",
+        "title": "Environnement de travail",
+        "desc": "Setup de l'environnement Git",
+        "iconSrc": ""
+      },
+      {
+        "id": "2-2",
+        "title": "GitHub",
+        "desc": "Bases de l'utilisation de GitHub",
+        "iconSrc": ""
+      },
+      {
+        "id": "2-3",
+        "title": "GitHub Desktop",
+        "desc": "Bases de l'utilisation de GitHub Desktop",
+        "iconSrc": ""
+      },
+      {
+        "id": "2-4",
+        "title": "Merge Request",
+        "desc": "",
+        "iconSrc": ""
+      },
+      {
+        "id": "2-5",
+        "title": "Pull Request",
+        "desc": "",
+        "iconSrc": ""
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "title": "Introduction à la programmation",
+    "desc": "Bases de la programmation",
+    "iconSrc": "",
+    "chapters": [
+      {
+        "id": "3-1",
+        "title": "Environnement de travail",
+        "desc": "",
+        "iconSrc": ""
+      },
+      {
+        "id": "3-2",
+        "title": "Types primitifs et Variables",
+        "desc": "",
+        "iconSrc": ""
+      },
+      {
+        "id": "3-3",
+        "title": "Affichage Console",
+        "desc": "",
+        "iconSrc": ""
+      },
+      {
+        "id": "3-4",
+        "title": "Conditions booléennes",
+        "desc": "",
+        "iconSrc": ""
+      },
+      {
+        "id": "3-5",
+        "title": "Boucles de contrôles",
+        "desc": "",
+        "iconSrc": ""
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "title": "Java",
+    "desc": "Bases de la programmation orientée objet",
+    "iconSrc": "",
+    "chapters": [
+      {
+        "id": "4-1",
+        "title": "Environnement de travail",
+        "desc": "",
+        "iconSrc": ""
+      },
+      {
+        "id": "4-2",
+        "title": "Classes et Attributs",
+        "desc": "",
+        "iconSrc": ""
+      },
+      {
+        "id": "4-3",
+        "title": "Méthodes",
+        "desc": "",
+        "iconSrc": ""
+      },
+      {
+        "id": "4-4",
+        "title": "Programme principal",
+        "desc": "",
+        "iconSrc": ""
+      },
+      {
+        "id": "4-5",
+        "title": "Enumérations",
+        "desc": "",
+        "iconSrc": ""
+      },
+      {
+        "id": "4-6",
+        "title": "Bibliothèques",
+        "desc": "",
+        "iconSrc": ""
+      },
+      {
+        "id": "4-7",
+        "title": "Collection et Iterable",
+        "desc": "",
+        "iconSrc": ""
+      },
+      {
+        "id": "4-8",
+        "title": "Interface Utilisateur",
+        "desc": "",
+        "iconSrc": ""
+      },
+      {
+        "id": "4-9",
+        "title": "Valeur Aléatoire",
+        "desc": "",
+        "iconSrc": ""
+      },
+      {
+        "id": "4-10",
+        "title": "Dictionnaires",
+        "desc": "",
+        "iconSrc": ""
+      },
+      {
+        "id": "4-11",
+        "title": "Mode Debug",
+        "desc": "",
+        "iconSrc": ""
+      },
+      {
+        "id": "4-12",
+        "title": "Tests Unitaires",
+        "desc": "",
+        "iconSrc": ""
+      },
+      {
+        "id": "4-13",
+        "title": "Gestion des Exceptions",
+        "desc": "",
+        "iconSrc": ""
+      },
+      {
+        "id": "4-14",
+        "title": "Abstraction et Héritage",
+        "desc": "",
+        "iconSrc": ""
+      },
+      {
+        "id": "4-15",
+        "title": "Polymorphisme",
+        "desc": "",
+        "iconSrc": ""
+      },
+      {
+        "id": "4-16",
+        "title": "Abstraction et Interface",
+        "desc": "",
+        "iconSrc": ""
+      }
+    ]
+  }
+]
