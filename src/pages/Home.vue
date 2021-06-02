@@ -1,7 +1,7 @@
 <template>
   <q-page>
     <q-list separator>
-      <q-item v-for="course in courses" :key="course.id" :to="course.title.toLocaleLowerCase().replace(' ', '-')" clickable>
+      <q-item v-for="course in courses" :key="course.id" :to="course.title.toLocaleLowerCase().replaceAll(' ', '-')" clickable>
         <q-item-section avatar>
           <q-avatar rounded>
             <q-img :src="course.iconSrc" />

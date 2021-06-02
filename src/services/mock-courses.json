@@ -9,13 +9,15 @@
         "id": "1-1",
         "title": "Présentation de Creascio",
         "desc": "Pour les nouveaux arrivants",
-        "iconSrc": ""
+        "iconSrc": "",
+        "markdown": "~/assets/markdowns/1_creascio/1-1_presentation_creascio.md"
       },
       {
         "id": "1-2",
         "title": "Devenir Helper",
         "desc": "Pour les membres souhaitant contribuer à Creascio",
-        "iconSrc": ""
+        "iconSrc": "",
+        "markdown": "~/assets/markdowns/1_creascio/1-2_devenir_helper.md"
       }
     ]
   },
@@ -29,31 +31,36 @@
         "id": "2-1",
         "title": "Environnement de travail",
         "desc": "Setup de l'environnement Git",
-        "iconSrc": ""
+        "iconSrc": "",
+        "markdown": "~/assets/markdowns/2_git/2-1_environnement_de_travail.md"
       },
       {
         "id": "2-2",
         "title": "GitHub",
         "desc": "Bases de l'utilisation de GitHub",
-        "iconSrc": ""
+        "iconSrc": "",
+        "markdown": "~/assets/markdowns/2_git/2-2_bases_de_github.md"
       },
       {
         "id": "2-3",
         "title": "GitHub Desktop",
         "desc": "Bases de l'utilisation de GitHub Desktop",
-        "iconSrc": ""
+        "iconSrc": "",
+        "markdown": "~/assets/markdowns/2_git/2-3_bases_de_github_desktop.md"
       },
       {
         "id": "2-4",
         "title": "Merge Request",
         "desc": "",
-        "iconSrc": ""
+        "iconSrc": "",
+        "markdown": "~/assets/markdowns/2_git/2-4_merge_request.md"
       },
       {
         "id": "2-5",
         "title": "Pull Request",
         "desc": "",
-        "iconSrc": ""
+        "iconSrc": "",
+        "markdown": "~/assets/markdowns/2_git/2-5_pull_request.md"
       }
     ]
   },
@@ -67,31 +74,36 @@
         "id": "3-1",
         "title": "Environnement de travail",
         "desc": "",
-        "iconSrc": ""
+        "iconSrc": "",
+        "markdown": "~/assets/markdowns/3_introduction_a_la_programmation/3-1_environnement_de_travail.md"
       },
       {
         "id": "3-2",
         "title": "Types primitifs et Variables",
         "desc": "",
-        "iconSrc": ""
+        "iconSrc": "",
+        "markdown": "~/assets/markdowns/3_introduction_a_la_programmation/3-2_types_primitifs_et_variables.md"
       },
       {
         "id": "3-3",
         "title": "Affichage Console",
         "desc": "",
-        "iconSrc": ""
+        "iconSrc": "",
+        "markdown": "~/assets/markdowns/3_introduction_a_la_programmation/3-3_affichage_console.md"
       },
       {
         "id": "3-4",
         "title": "Conditions booléennes",
         "desc": "",
-        "iconSrc": ""
+        "iconSrc": "",
+        "markdown": "~/assets/markdowns/3_introduction_a_la_programmation/3-4_conditions_booleenes.md"
       },
       {
         "id": "3-5",
         "title": "Boucles de contrôles",
         "desc": "",
-        "iconSrc": ""
+        "iconSrc": "",
+        "markdown": "~/assets/markdowns/3_introduction_a_la_programmation/3-5_boucles_de_controle.md"
       }
     ]
   },
@@ -105,97 +117,135 @@
         "id": "4-1",
         "title": "Environnement de travail",
         "desc": "",
-        "iconSrc": ""
+        "iconSrc": "",
+        "markdown": "~/assets/markdowns/4_java/4-1_environnement_de_travail.md"
       },
       {
         "id": "4-2",
         "title": "Classes et Attributs",
         "desc": "",
-        "iconSrc": ""
+        "iconSrc": "",
+        "markdown": "~/assets/markdowns/4_java/4-2_classes_et_attributs.md"
       },
       {
         "id": "4-3",
         "title": "Méthodes",
         "desc": "",
-        "iconSrc": ""
+        "iconSrc": "",
+        "markdown": "~/assets/markdowns/4_java/4-3_methodes.md"
       },
       {
         "id": "4-4",
         "title": "Programme principal",
         "desc": "",
-        "iconSrc": ""
+        "iconSrc": "",
+        "markdown": "~/assets/markdowns/4_java/4-4_programme_principal.md"
       },
       {
         "id": "4-5",
         "title": "Enumérations",
         "desc": "",
-        "iconSrc": ""
+        "iconSrc": "",
+        "markdown": "~/assets/markdowns/4_java/4-5_enumerations.md"
       },
       {
         "id": "4-6",
         "title": "Bibliothèques",
         "desc": "",
-        "iconSrc": ""
+        "iconSrc": "",
+        "markdown": "~/assets/markdowns/4_java/4-6_bibliotheques.md"
       },
       {
         "id": "4-7",
         "title": "Collection et Iterable",
         "desc": "",
-        "iconSrc": ""
+        "iconSrc": "",
+        "markdown": "~/assets/markdowns/4_java/4-7_collection_et_iterable.md"
       },
       {
         "id": "4-8",
         "title": "Interface Utilisateur",
         "desc": "",
-        "iconSrc": ""
+        "iconSrc": "",
+        "markdown": "~/assets/markdowns/4_java/4-8_interface_utilisateur.md"
       },
       {
         "id": "4-9",
         "title": "Valeur Aléatoire",
         "desc": "",
-        "iconSrc": ""
+        "iconSrc": "",
+        "markdown": "~/assets/markdowns/4_java/4-9_valeur_aleatoire.md"
       },
       {
         "id": "4-10",
         "title": "Dictionnaires",
         "desc": "",
-        "iconSrc": ""
+        "iconSrc": "",
+        "markdown": "~/assets/markdowns/4_java/4-10_dictionnaires.md"
       },
       {
         "id": "4-11",
         "title": "Mode Debug",
         "desc": "",
-        "iconSrc": ""
+        "iconSrc": "",
+        "markdown": "~/assets/markdowns/4_java/4-11_mode_debug.md"
       },
       {
         "id": "4-12",
         "title": "Tests Unitaires",
         "desc": "",
-        "iconSrc": ""
+        "iconSrc": "",
+        "markdown": "~/assets/markdowns/4_java/4-12_tests_unitaires.md"
       },
       {
         "id": "4-13",
         "title": "Gestion des Exceptions",
         "desc": "",
-        "iconSrc": ""
+        "iconSrc": "",
+        "markdown": "~/assets/markdowns/4_java/4-13_gestion_des_exceptions.md"
       },
       {
         "id": "4-14",
         "title": "Abstraction et Héritage",
         "desc": "",
-        "iconSrc": ""
+        "iconSrc": "",
+        "markdown": "~/assets/markdowns/4_java/4-14_abstraction_et_heritage.md"
       },
       {
         "id": "4-15",
         "title": "Polymorphisme",
         "desc": "",
-        "iconSrc": ""
+        "iconSrc": "",
+        "markdown": "~/assets/markdowns/4_java/4-15_polymorphisme.md"
       },
       {
         "id": "4-16",
         "title": "Abstraction et Interface",
         "desc": "",
-        "iconSrc": ""
+        "iconSrc": "",
+        "markdown": "~/assets/markdowns/4_java/4-16_abstraction_et_interface.md"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "title": "Javascript",
+    "desc": "Bases de la programmation web",
+    "iconSrc": "",
+    "chapters": [
+      {
+        "id": "5-1",
+        "title": "Bases de Javascript",
+        "desc": "",
+        "iconSrc": "",
+        "markdown": "~/assets/markdowns/5_javascript/5-1_bases_de_javascript.md"
+      },
+      {
+        "id": "5-2",
+        "title": "Javascript pour le Web",
+        "desc": "",
+        "iconSrc": "",
+        "markdown": "~/assets/markdowns/5_javascript/5-2_javascript_pour_le_web.md"
       }
     ]
   }

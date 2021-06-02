@@ -1,7 +1,7 @@
 <template>
   <q-page>
     <q-list separator>
-      <q-item v-for="chapter in chapters" :key="chapter.id" clickable>
+      <q-item v-for="chapter in chapters" :key="chapter.id" :to="props.courseName + '/' + chapter.title.toLowerCase().replaceAll(' ', '-')" clickable>
         <q-item-section avatar>
           <q-avatar rounded>
             <q-img :src="chapter.iconSrc" />
@@ -28,9 +28,9 @@ export default defineComponent({
     }
   },
   setup(props) {
-    const course = courses.find(course => course.title.toLowerCase().replace(' ', '-') === props.courseName)
+    const course = courses.find(course => course.title.toLowerCase().replaceAll(' ', '-') === props.courseName)
     return {
-      chapters: course.chapters
+      props, chapters: course.chapters
     }
   }
 })
