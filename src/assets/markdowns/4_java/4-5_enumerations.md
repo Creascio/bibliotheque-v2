@@ -1,8 +1,8 @@
-# Les énumerations
+# Enumerations
 
 ## Prérequis
 
-+ []()
++ [Programme Principal]()
 
 ## Introduction
 
@@ -71,8 +71,8 @@ Les méthodes de la classe Enum sont les suivantes :
 
 ## Exercices
 
-+ []()
++
 
 ## Suivants
 
-+ []()
++ [Bibliotheques]()

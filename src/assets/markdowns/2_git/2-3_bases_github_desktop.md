@@ -2,7 +2,11 @@
 
 ## Prérequis
 
-+ [Base de Github (site)](/lesson/26)
++ [Base de Github]()
+
+## Introduction
+
+Github Desktop est un outil de bureau en lien avec Github et qui permet la gestion de repository git.
 
 ## Interface
 
@@ -16,12 +20,12 @@ A droite, cliquer sur **Current repository**. Cela vous ouvrira un menu qui cont
 
 Lorsque vous cliquez sur **Add** trois choix s'offrent à vous :
 
-+ **Clone repository** : Copier votre projet Git sur votre pc (ou un repository public). Lorsque vous cliquez, cela vous ouvrira une fenêtre qui vous proposera soit de choisir parmi les repository auquels vous avez accès, soit d'insérer l'url ou nom d'un repository. Dans tout les cas vous devez aussi insérer l'endroit où vous voulez sauvegarder ce repository.
-  
-+ **Create new repository** : Créer un repository de 0. Lorsque vous cliquez, cela vous ouvrira une fenêtre qui vous demandera le nom, la potentielle description, le chemin où vous voulez stocker votre projet et si vous voulez ajouter un README. Vous aurez en plus le choix d'ajouter un .gitignore (choisissez simplement le langage que vous allez utiliser).
-  
-+ **Add existing repository** : Ajoutez un repository git déjà présent localement sur votre pc (il doit avoir le fichier .git). Lorsque vous cliquez, cela vous ouvrira une fenêtre qui vous demandera le chemin du repository sur votre pc.
-  
++ ``Clone repository`` : Copier votre projet Git sur votre pc (ou un repository public). Lorsque vous cliquez, cela vous ouvrira une fenêtre qui vous proposera soit de choisir parmi les repository auquels vous avez accès, soit d'insérer l'url ou nom d'un repository. Dans tout les cas vous devez aussi insérer l'endroit où vous voulez sauvegarder ce repository.
+
++ ``Create new repository`` : Créer un repository de 0. Lorsque vous cliquez, cela vous ouvrira une fenêtre qui vous demandera le nom, la potentielle description, le chemin où vous voulez stocker votre projet et si vous voulez ajouter un README. Vous aurez en plus le choix d'ajouter un .gitignore (choisissez simplement le langage que vous allez utiliser).
+
++ ``Add existing repository`` : Ajoutez un repository git déjà présent localement sur votre pc (il doit avoir le fichier .git). Lorsque vous cliquez, cela vous ouvrira une fenêtre qui vous demandera le chemin du repository sur votre pc.
+
 ## gitignore
 
 Un .gitignore est un fichier qui permet au repository d'ignorer certains types de fichiers comme de lourdes bibliothèques (par exemple node-modules).
@@ -68,22 +72,30 @@ Lorsque vous voulez **push** un commit, il faudra vérifier que votre version es
 
 ## Exercices
 
-Q1 **Créer un projet**
+``(Q1) Créer un projet``
 
+```txt
 Créer un projet sur Github Desktop, appeler le "First-Project" vous pouvez mettre la description que vous voulez.
+```
 
-Q2 **Créer une branche**
+``(Q2) Créer une branche``
 
+```txt
 Créer une branche qui vous nommerez "develop"
+```
 
-Q3 **Faire un commit**
+``(Q3) Faire un commit``
 
+```txt
 Dans la branche develop, créer un fichier texte avec n'importe quel texte dessus. Puis appeler votre commit "Create a text file" puis commiter !
+```
 
-Q4 **Push le commit**
+``(Q4) Push le commit``
 
+```txt
 Enfin n'oubliez pas de push !
+```
 
 ## Suivants
 
-+ []()
++ [Merge Request]()

@@ -1,8 +1,8 @@
-# La gestion des exceptions
+# Gestion des Exceptions
 
 ## Prérequis
 
-+ []()
++ [Tests unitaires]()
 
 ## Introduction
 
@@ -30,10 +30,10 @@ On construit donc la méthode de cette façon :
 // on indique quelles exceptions peuvent être levées
 public float division(int diviseur, int dividende) throws ArithmeticException {
     // le cas d'utilisation de la méthode qui va poser problème
-    if (diviseur == 0){  
-        // on créer un objet de type ArithmeticException qui va levé une 
+    if (diviseur == 0){
+        // on créer un objet de type ArithmeticException qui va levé une
         // exception avec le message passé en paramètre
-        throw new ArithmeticException("On ne peut pas diviser par 0 !"); 
+        throw new ArithmeticException("On ne peut pas diviser par 0 !");
     }
     return dividende / diviseur; // fonctionnement normal de la méthode
 }
@@ -91,7 +91,7 @@ Si les méthodes invoquées dans le bloc `try` peuvent lever plusieurs méthodes
 try {
     uneMethodeRisquée();
 }
-catch (IllegalArgumentException | NumberFormatException | ArithmeticException 
+catch (IllegalArgumentException | NumberFormatException | ArithmeticException
   | IOException | FileNotFoundException | IndexOutOfBoundsException e) {
     e.printStackTrace();
 }
@@ -101,8 +101,8 @@ catch (IllegalArgumentException | NumberFormatException | ArithmeticException
 
 ### Exercices
 
-+ []()
++
 
 ### Suivants
 
-+ []()
++ [Abstration et Héritage]()

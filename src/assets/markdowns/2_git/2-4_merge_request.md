@@ -1,8 +1,8 @@
-# Gestion de branche
+# Merge Request
 
 ## Prérequis
 
-+ []()
++ [Bases Github Desktop]()
 
 ## Introduction
 
@@ -28,6 +28,8 @@ En fonction du type de conflits, Github Desktop peut proposer de prendre en char
 
 ## Exercices
 
++
+
 ## Suivants
 
-+ []()
++

@@ -1,8 +1,8 @@
-# Classes et attributs
+# Classes et Attributs
 
 ## Prérequis
 
-+ []()
++ [Environnement de travail]()
 
 ## Introduction
 
@@ -88,7 +88,7 @@ Il existe plusieurs propriétés pour les attributs ou bien encore les méthodes
 
 ```java
 public class Chien {
-    private static final boolean estMoinsBienQueLesChats = true; 
+    private static final boolean estMoinsBienQueLesChats = true;
 }
 ```
 
@@ -96,8 +96,8 @@ Ici l'attribut indique que pour n'importe quel chien, son attribut `estMoinsBien
 
 ## Exercices
 
-+ []()
++
 
 ## Suivants
 
-+ []()
++ [Méthodes]()

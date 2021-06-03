@@ -1,8 +1,8 @@
-# Les interfaces
+# Abstraction et Interface
 
 ## Prérequis
 
-+ []()
++ [Polymorphisme]()
 
 ## Introduction
 
@@ -55,17 +55,17 @@ Une interface ne peut pas contenir d'attributs, **on ne peut pas instancier des 
 
 ```java
 public class Usine {
-    // cette liste peut contenir des objets de n'importe 
+    // cette liste peut contenir des objets de n'importe
     // quel type qui implémente l'interface machine (ex: ordinateur, etc.)
-    private List<Machine> machines; 
+    private List<Machine> machines;
 }
 ```
 
 ```java
 public static void main(String[] args){
-    // on ne peut pas instancier d'objet de type Machine mais on peut 
+    // on ne peut pas instancier d'objet de type Machine mais on peut
     // s'en servir pour instancier des implémentations
-    Machine machine = new Ordinateur(42);  
+    Machine machine = new Ordinateur(42);
 }
 ```
 
@@ -75,8 +75,8 @@ L'héritage et l'interface sont des mécanismes qui **ne sont pas incompatibles*
 
 ## Exercices
 
-+ []()
++
 
 ## Suivants
 
-+ []()
++

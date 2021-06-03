@@ -1,8 +1,8 @@
-# Les méthodes
+# Méthodes
 
 ## Prérequis
 
-+ []()
++ [Classes et Attributs]()
 
 ## Introduction
 
@@ -62,7 +62,7 @@ public class Chien {
     private String race;
 
     // créer un chien qui possède un nom, un age mais pas de race
-    public Chien(int age, String nom){ 
+    public Chien(int age, String nom){
         this.age = age;
         this.nom = nom;
     }
@@ -70,7 +70,7 @@ public class Chien {
     // créer un chien complet
     // appelle le constructeur prenant seulement un age et un nom
     // en paramètre et procède à l'instanciation
-    public Chien(int age, String nom, String race){ 
+    public Chien(int age, String nom, String race){
         this(age, nom);
         this.race = race;
     }
@@ -92,12 +92,12 @@ public class Chien {
 
     public int getAge(){
         // on récupère l'age du chien qui appelle la méthode
-        return this.age; 
+        return this.age;
     }
 
     public void setNom(String nom){
         // on modifie le nom du chien qui appelle la méthode
-        this.nom = nom; 
+        this.nom = nom;
     }
 }
 ```
@@ -126,7 +126,7 @@ Pour cela on utilise le symbole `+`.
 **Exemple** :
 
 ```java
-String s = "Bonjour je m'appelle " + this.getNom() 
+String s = "Bonjour je m'appelle " + this.getNom()
   + " et j'ai " + 12 + " ans !";
 ```
 
@@ -134,8 +134,8 @@ String s = "Bonjour je m'appelle " + this.getNom()
 
 ## Exercices
 
-+ []()
++
 
 ## Suivants
 
-+ []()
++ [Programme Principal]()

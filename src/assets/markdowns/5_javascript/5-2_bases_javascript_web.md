@@ -1,8 +1,8 @@
-# Bases du Javascript pour le Web
+# Bases de Javascript pour le Web
 
 ## Prérequis
 
-+ [Bases du Javascript]()
++ [Bases de Javascript]()
 
 ## Introduction
 
@@ -22,7 +22,7 @@ Il existe de nombreux outils, couplés aux fonctionnalités du Javascript, qui p
 
 Le Document Object Model, ou DOM, pose les fondations de l'architecture d'une application Web, c'est ce modèle qui explique les interactions entre les balises HTML et c'est auprès de celui-ci que les scripts JS se réfère pour accéder à des éléments dans la page web.
 
-*Remarque* : On réfère au DOM dans le Javascript via le mot clé `document`
+*Remarque : On réfère au DOM dans le Javascript via le mot clé `document`.*
 
 ## Interactions
 
@@ -33,7 +33,7 @@ Les interactions de bases possibles entre un script JS et une page web sont les 
 + modifier le style d'un élément
 + écouter des évènements sur un élément
 
-*Remarque* : un évènement est une action qui s'effectue sur la page, un évènement peut être un changement d'état d'un élément de la page (ex: chargement de l'élément terminé) ou bien une intervention de l'utilisateur (ex: clic sur un bouton, un Link)
+*Remarque : un évènement est une action qui s'effectue sur la page, un évènement peut être un changement d'état d'un élément de la page (ex: chargement de l'élément terminé) ou bien une intervention de l'utilisateur (ex: clic sur un bouton, un Link).*
 
 ### Recuperer un élément HTML
 
@@ -109,7 +109,7 @@ const elt = document.getElementById('main')
 + `elt.parentElement` renvoie la div ayant pour id `parent`
 + `elt.nextElementSibling` renvoie la div ayant pour id `titi`
 
-*Remarque* : Toutes ces méthodes de recherche renvoie un élément `null` si la recherche ne porte pas ses fruits, le programme ne plante pas nécessairement.
+*Remarque : Toutes ces méthodes de recherche renvoie un élément `null` si la recherche ne porte pas ses fruits, le programme ne plante pas nécessairement.*
 
 ### Modifier un élément
 
@@ -118,7 +118,7 @@ Une fois que l'on a récupéré un élément du DOM on peut modifier ses propri�
 + `innerHTML` : remplace le contenu actuel de l'élément par un nouveau contenu HTML
 + `textContent` : remplace le contenu actuel de l'élément par un nouveua contenu textuel
 
-*Remarque* : Il existe d'autres façons, celles-ci sont les plus courantes. `textContent` ne peut pas interpréter la syntaxe html et est donc beaucoup moins utile.
+*Remarque : Il existe d'autres façons, celles-ci sont les plus courantes. `textContent` ne peut pas interpréter la syntaxe html et est donc beaucoup moins utile.*
 
 **Exemple** :
 
@@ -149,7 +149,7 @@ elt.classList.contains("nouvelleClasse")      // Retournera false car on vient d
 elt.classList.replace("oldClass", "newClass") // Remplacera oldClass par newClass si oldClass était présente sur l'élément
 ```
 
-*Remarque* : il est possible d'ajouter et de retirer plusieurs classes à la fois.
+*Remarque : il est possible d'ajouter et de retirer plusieurs classes à la fois.*
 
 On peut modifier le style d'un élément sans passer par une feuille de style CSS grâce à la propriété `style` :
 
@@ -203,6 +203,8 @@ elt.replaceChild(document.createElement("article"), newElt); // Remplace l'élé
 
 ## Exercices
 
++
+
 ## Suivants
 
-+ []()
++

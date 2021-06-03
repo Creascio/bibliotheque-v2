@@ -1,16 +1,12 @@
 <template>
   <q-page>
-    <q-markdown src="*test* **test** :joy:" />
-    <q-markdown src="~/assets/markdowns/1_creascio/1-1_presentation_creascio.md" />
-    <q-markdown :src="markdown" />
     <q-markdown :src="chapter.markdown" />
   </q-page>
 </template>
 
 <script>
 import { defineComponent } from '@vue/composition-api'
-import courses from 'src/services/mock-courses.json'
-import markdown from '~/assets/markdowns/1_creascio/1-1_presentation_creascio.md'
+import courses from 'src/services/mock-courses.js'
 
 export default defineComponent({
   props: {
@@ -27,7 +23,7 @@ export default defineComponent({
     const course = courses.find(course => course.title.toLowerCase().replaceAll(' ', '-') === props.courseName)
     const chapter = course.chapters.find(chapter => chapter.title.toLowerCase().replaceAll(' ', '-') === props.chapterName)
     return {
-      chapter, markdown
+      chapter
     }
   },
 })

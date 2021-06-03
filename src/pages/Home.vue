@@ -1,15 +1,17 @@
 <template>
   <q-page>
     <q-list separator>
-      <q-item v-for="course in courses" :key="course.id" :to="course.title.toLocaleLowerCase().replaceAll(' ', '-')" clickable>
+      <q-item v-for="course in courses"
+              :key="course.id"
+              :to="course.title.toLowerCase().replaceAll(' ', '-')"
+              clickable>
         <q-item-section avatar>
           <q-avatar rounded>
-            <q-img :src="course.iconSrc" />
+            <q-img :src="course.icon" />
           </q-avatar>
         </q-item-section>
         <q-item-section>
-          <q-item-label><strong>{{ course.title }}</strong></q-item-label>
-          <q-item-label>{{ course.desc }}</q-item-label>
+          <q-item-label>{{ course.title }}</q-item-label>
         </q-item-section>
       </q-item>
     </q-list>
@@ -18,7 +20,7 @@
 
 <script>
 import { defineComponent } from '@vue/composition-api'
-import courses from 'src/services/mock-courses.json'
+import courses from 'src/services/mock-courses.js'
 
 export default defineComponent({
   setup() {

@@ -2,7 +2,7 @@
 
 ## Prérequis
 
-+ []()
++ [Bibliotheques]()
 
 ## Introduction
 
@@ -88,9 +88,9 @@ La classe `Arrays` contient de nombreuses méthodes de manipulation de tableau d
 **Exemple** :
 
 ```java
-// le tableau de nombre [1, 2, 3] est transformé en liste 
+// le tableau de nombre [1, 2, 3] est transformé en liste
 // pour instancier numbers
-ArrayList<Integer> numbers = Arrays.asList(1, 2, 3);  
+ArrayList<Integer> numbers = Arrays.asList(1, 2, 3);
 ```
 
 *Remarque* : comme nous venons de parler de Arrays il peut etre bon de savoir qu'il existe d'autres méthodes dans cette classe notamment la méthode `sort()` qui, en fonction des éléments stockés dans le tableau, permet de le trier dans l'ordre croissant.
@@ -186,4 +186,4 @@ On doit pouvoir générer pour chaque chambre le message suivant : `Chambre n°[
 
 ## Suivants
 
-+ []()
++ [Interface Utilisateur]()

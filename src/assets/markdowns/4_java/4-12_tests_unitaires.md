@@ -1,8 +1,8 @@
-# Les tests unitaires
+# Tests Unitaires
 
 ## Prérequis
 
-+ []()
++ [Mode Debug]()
 
 ## Introduction
 
@@ -87,9 +87,9 @@ public class TotoTest {
         // le test est validé
         // Premier paramètre = resultat attendu
         // Deuxième paramètre = élément a tester
-        assertEquals(0 , toto.note) 
+        assertEquals(0 , toto.note)
         // une autre façon de tester la même égalité
-        assertTrue(toto.note == 0) 
+        assertTrue(toto.note == 0)
     }
 }
 ```
@@ -103,7 +103,7 @@ public class TotoTest {
     public void createTotoTest(){
         // Arrange
         Toto toto = new Toto();
-        
+
         // Act
         toto.setNote(12);
 
@@ -140,31 +140,31 @@ public class TotoTest(){
     @BeforeAll
     public static void init(){
         // instancie l'objet toto avant qu'il soit utilisé ailleurs
-        toto = new Toto();  
+        toto = new Toto();
     }
 
     @BeforeEach
     public void reset(){
         // remet la note de toto à 0 comme lors de sa création
         // pour éviter les confusions entre plusieurs tests
-        toto.setNote(0);  
+        toto.setNote(0);
     }
 
     @Test
     public void test1(){
         assertEquals(0, toto.getNote());
         // // avant de finir le test on modifie la note de toto
-        toto.setNote(12); 
+        toto.setNote(12);
     }
 
     public void test2(){
         // le test valide, même si on a changé la note de Toto à 12
-        // dans le test précédent, la méthode reset a été appelée 
+        // dans le test précédent, la méthode reset a été appelée
         // avant test2 et ainsi la note de toto a été remise à 0
-        assertEquals(0, toto.getNote());  
+        assertEquals(0, toto.getNote());
 
         // juste pour montrer que pourquoi pas
-        toto.setNote(addition(1, 5)); 
+        toto.setNote(addition(1, 5));
         assertFalse(0, toto.getNote()); // le test valide
     }
 }
@@ -190,29 +190,29 @@ public class CalculTest {
     @ParameterizedTest
     @ValueSource(ints = { 1, 2, 3, 4 })
     public void multiplicationTest1(int arg){
-        // on multiplie un par un les valeur s de ints par 0 
+        // on multiplie un par un les valeur s de ints par 0
         // et on stocke le tout dans resultat
-        int result = multiplication(0, arg);  
+        int result = multiplication(0, arg);
         // on s'assure que multiplier par 0 rend toujours bien 0
-        assertEquals(0, result); 
+        assertEquals(0, result);
     }
 
     @ParameterizedTest
     // un couple de valeur "x,y,z" tel que x * y = z
-    @CsvSource({ "1,1,1", "2,2,4", "3,4,12"}) 
-    public void multiplicationTest2(int firstNumber, int secondNumber, 
+    @CsvSource({ "1,1,1", "2,2,4", "3,4,12"})
+    public void multiplicationTest2(int firstNumber, int secondNumber,
        int expectedResult){
         int result = multiplication(firstNumber, secondNumber);
         // on s'assure qu'on obtient le résultat attendu
-        assertEquals(expectedResult, result); 
+        assertEquals(expectedResult, result);
     }
 }
 ```
 
 ## Exercices
 
-+ []()
++
 
 ### Suivants
 
-+ []()
++ [Gestion des Exceptions]()

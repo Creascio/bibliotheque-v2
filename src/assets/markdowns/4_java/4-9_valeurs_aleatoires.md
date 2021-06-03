@@ -1,8 +1,8 @@
-# Les valeurs générées aléatoirement
+# Valeurs Aléatoires
 
 ## Prérequis
 
-+ []()
++ [Interface Utilisateur]()
 
 ## Introduction
 
@@ -69,4 +69,4 @@ Développez une interface utilisateur permettant de récupérer le nom des deux 
 
 ## Suivants
 
-+ []()
++ [Dictionnaires]()

@@ -1,8 +1,8 @@
-# Le Main
+# Programme Principal
 
 ## Prérequis
 
-+ []()
++ [Méthodes]()
 
 ## Introduction
 
@@ -111,4 +111,4 @@ Développez un **programme principal** permettant de produire ce résultat :
 
 ## Suivants
 
-+ []()
++ [Enumérations]()

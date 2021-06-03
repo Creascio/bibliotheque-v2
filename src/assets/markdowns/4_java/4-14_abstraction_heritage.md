@@ -1,8 +1,8 @@
-# Héritage et abstraction
+# Abstraction et Héritage
 
 ## Prérequis
 
-+ []()
++ [Gestion des Exceptions]()
 
 ## Introduction
 
@@ -47,13 +47,13 @@ public class Chien {
     private String race;
 
     // le chien a implicitement un nom et un age car c'est un animal
-    public Chien(String nom, int age, String race){   
+    public Chien(String nom, int age, String race){
         super(nom, age); // fait appel au constructeur de la classe mère
         this.race = race;
     }
 
     public void manger(){
-        super.manger(); // fait appel à la méthode manger de la classe mère 
+        super.manger(); // fait appel à la méthode manger de la classe mère
     }
 }
 ```
@@ -82,9 +82,9 @@ public abstract class Animal {
     private String nom;
     private int age;
 
-    // une classe abstract peut quand même avoir des constructeurs qui 
+    // une classe abstract peut quand même avoir des constructeurs qui
     // seront utilisés via super dans les classes filles
-    public Animal(String nom, int age){    
+    public Animal(String nom, int age){
         this.nom = nom;
         this.age = age;
     }
@@ -119,7 +119,7 @@ public class Chien extends Animal {
 ```java
 public static void main (String[] args){
     // on créé un animal de type Chien
-    Animal toto = new Chien("Polux", 7, "Skye Terrier"); 
+    Animal toto = new Chien("Polux", 7, "Skye Terrier");
 }
 ```
 
@@ -153,8 +153,8 @@ Ici, en partant du principe que les classes `Chien`, `Chat` et `Oiseau` hériten
 
 ## Exercices
 
-+ []()
++
 
 ## Suivants
 
-+ []()
++ [Polymorphisme]()

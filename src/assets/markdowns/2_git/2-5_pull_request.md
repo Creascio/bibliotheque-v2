@@ -1,8 +1,8 @@
-# Pull Requests
+# Pull Request
 
 ## Prérequis
 
-+ []()
++ [Merge Request]()
 
 ## Introduction
 
@@ -24,6 +24,8 @@ Une fois informé un reviewer peut voir le contenu de la branche entrante et not
 
 ## Exercices
 
++
+
 ## Suivants
 
-+ []()
++

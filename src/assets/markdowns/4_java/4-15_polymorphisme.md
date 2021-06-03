@@ -1,8 +1,8 @@
-# Le polymorphisme
+# Polymorphisme
 
 ## Prérequis
 
-+ []()
++ [Abstraction et Héritage]()
 
 ## Introduction
 
@@ -74,8 +74,8 @@ L'annotation `@Override` indique au compilateur de préférer la version de la m
 
 ## Exercices
 
-+ []()
++
 
 ## Suivants
 
-+ []()
++ [Abstraction et Interface]()

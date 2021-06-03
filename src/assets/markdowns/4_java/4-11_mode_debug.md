@@ -2,7 +2,7 @@
 
 ## Prérequis
 
-+ []()
++ [Dictionnaires]()
 
 ## Introduction
 
@@ -39,8 +39,8 @@ En fonction de votre IDE vous pouvez également avoir une vue debug qui permet d
 
 ## Exercices
 
-+ []()
++
 
 ## Suivants
 
-+ []()
++ [Tests Unitaires]()

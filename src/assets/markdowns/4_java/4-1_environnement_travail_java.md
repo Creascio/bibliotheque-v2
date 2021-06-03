@@ -2,7 +2,7 @@
 
 ## Prérequis
 
-+ aucun
++ [Boucles de contrôle]()
 
 ## Introduction
 
@@ -50,8 +50,8 @@ Le projet et son architecture sont alors créés, il ne vous reste plus qu'a cr�
 
 ## Exercices
 
-+ []()
++
 
 ## Suivants
 
-+ []()
++ [Classes et Attributs]()

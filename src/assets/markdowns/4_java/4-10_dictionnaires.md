@@ -1,8 +1,8 @@
-# Les dictionnaires
+# Dictionnaires
 
 ## Prérequis
 
-+ []()
++ [Valeurs Aléatoires]()
 
 ## Introduction
 
@@ -32,15 +32,15 @@ Pour parcourir le dictionnaire on utilise :
 
 ```java
 // on créé un dictionnaire qui associe un caractère a un mot
-Map<Character, String> dico = new HashMap<>(); 
+Map<Character, String> dico = new HashMap<>();
 // on ajoute la clé 'a' associé au mot 'abricot' qui sera sa valeur
 dico.put('a', "abricot");
 dico.put('c', "creascio");
 
 for (Character c : dico.keySet()){
-    // pour chaque clé dans le dico on affiche cette clé et 
+    // pour chaque clé dans le dico on affiche cette clé et
     // la valeur associée
-    System.out.println("Key :" + c + " value : " + dico.get(c)); 
+    System.out.println("Key :" + c + " value : " + dico.get(c));
 }
 ```
 
@@ -48,22 +48,22 @@ for (Character c : dico.keySet()){
 
 ```java
 // on créer une liste de mots
-List<String> motsEnC = new ArrayList<>() {{ 
-    // on ajoute directement quelques mots qui commencent 
+List<String> motsEnC = new ArrayList<>() {{
+    // on ajoute directement quelques mots qui commencent
     // par la lettre c
-    add("clubby");  
+    add("clubby");
     add("clubbo");
 }};
 Map<Character, ArrayList<String>> dico = new HashMap<>();
 // on ajoute l'association entre la lettre c et notre liste
 // de mot qui commence par c dans le dictionnaire
-dico.put('c', motsEnC);   
+dico.put('c', motsEnC);
 ```
 
 ## Exercices
 
-+ []()
++
 
 ## Suivants
 
-+ []()
++ [Mode Debug]()

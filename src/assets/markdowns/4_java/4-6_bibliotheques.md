@@ -1,8 +1,8 @@
-# Les bibliothèques
+# Bibliothèques
 
 ## Prérequis
 
-+ []()
++ [Enumérations]()
 
 ## Introduction
 
@@ -31,8 +31,8 @@ Cet import permet de récupérer toutes les classes contenu dans le package `uti
 
 ## Exercices
 
-+ []()
++
 
 ### Suivants
 
-+ []()
++ [Collection et Iterable]()

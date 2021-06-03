@@ -1,8 +1,8 @@
-# Le scanner
+# Interface Utilisateur
 
 ## Prérequis
 
-+ []()
++ [Collection et Iterable]()
 
 ## Introduction
 
@@ -58,17 +58,17 @@ Scanner sc = new Scanner(System.in);
 Boolean isValid = false; // le choix de l'utilisateur est il bon ?
 
 while (!isValid){
-    // print au lieu de println pour que l'utilisateur écrive 
+    // print au lieu de println pour que l'utilisateur écrive
     // sur cette ligne
-    System.out.print("Tapez 1 pour les mails, Tapez 2 pour les SMS >"); 
-    // on récupère une chaîne et pas un int car on veut éviter de 
+    System.out.print("Tapez 1 pour les mails, Tapez 2 pour les SMS >");
+    // on récupère une chaîne et pas un int car on veut éviter de
     // faire planter le programme
-    String choix = sc.next();  
+    String choix = sc.next();
     switch(choix){
         case "1" :
             System.out.println("MAILS");
             // la saisie de l'utilisateur correspond à un cas valide
-            isValid = true; 
+            isValid = true;
             break; // on ne veut rentrer que dans un seul case !
         case "2" :
             System.out.println("SMS");
@@ -111,9 +111,9 @@ On doit instancier un objet de type File avec en paramètre le chemin (relatif o
 File file = new File("toto.txt");
 Scanner sc = new Scanner(file);
 // tant que le scanner n'est pas arrivé au bout du fichier
-while(sc.hasNext()){ 
+while(sc.hasNext()){
     // affiche le fichier ligne par ligne
-    System.out.println(sc.nextLine()); 
+    System.out.println(sc.nextLine());
 }
 ```
 
@@ -136,4 +136,4 @@ Le but de cet exercice est de créer une interface utilisateur qui permettent au
 
 ## Suivants
 
-+ []()
++ [Valeurs Aléatoires]()
