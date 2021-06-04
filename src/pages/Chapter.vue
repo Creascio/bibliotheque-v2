@@ -1,6 +1,6 @@
 <template>
   <q-page>
-    <q-markdown :src="chapter.markdown" />
+    <q-markdown class="q-pa-md q-ma-md bg-grey-10 text-accent" :src="chapter.markdown" />
   </q-page>
 </template>
 

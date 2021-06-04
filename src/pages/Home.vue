@@ -1,20 +1,23 @@
 <template>
   <q-page>
-    <q-list separator>
-      <q-item v-for="course in courses"
-              :key="course.id"
-              :to="course.title.toLowerCase().replaceAll(' ', '-')"
-              clickable>
-        <q-item-section avatar>
-          <q-avatar rounded>
-            <q-img :src="course.icon" />
-          </q-avatar>
-        </q-item-section>
-        <q-item-section>
-          <q-item-label>{{ course.title }}</q-item-label>
-        </q-item-section>
-      </q-item>
-    </q-list>
+    <div class="row">
+      <q-list class="col-6 q-pa-md" padding bordered separator>
+        <q-item class="q-pa-sm q-mb-sm bg-grey-10 text-h5 text-accent"
+                v-for="course in courses"
+                :key="course.id"
+                :to="course.title.toLowerCase().replaceAll(' ', '-')"
+                clickable>
+          <q-item-section avatar>
+            <q-avatar size="80px" rounded>
+              <q-img :src="course.icon" />
+            </q-avatar>
+          </q-item-section>
+          <q-item-section>
+            <q-item-label>{{ course.title }}</q-item-label>
+          </q-item-section>
+        </q-item>
+      </q-list>
+    </div>
   </q-page>
 </template>
 
@@ -30,4 +33,3 @@ export default defineComponent({
   }
 })
 </script>
-

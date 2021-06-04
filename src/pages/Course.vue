@@ -1,7 +1,8 @@
 <template>
   <q-page>
-    <q-list separator>
-      <q-item v-for="chapter in chapters"
+    <q-list class="q-pa-md" padding bordered separator>
+      <q-item class="q-pa-sm q-mb-sm bg-grey-10 text-h6 text-accent"
+              v-for="chapter in chapters"
               :key="chapter.id"
               :to="course + '/' + chapter.title.toLowerCase().replaceAll(' ', '-')"
               clickable>

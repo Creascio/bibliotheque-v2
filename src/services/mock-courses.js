@@ -42,7 +42,7 @@ const courses = [
   {
     id: "1",
     title: "Creascio",
-    icon: "",
+    icon: "https://cdn.discordapp.com/attachments/822839106001829908/822839194099384360/discord_pdp.png",
     chapters: [
       {
         id: "1-1",
@@ -61,7 +61,7 @@ const courses = [
   {
     id: "2",
     title: "Git",
-    icon: "",
+    icon: "https://cdn.discordapp.com/attachments/822839106001829908/850371933118791690/AdKzmNKdPeteAAAAABJRU5ErkJggg.png",
     chapters: [
       {
         id: "2-1",
@@ -97,8 +97,8 @@ const courses = [
   },
   {
     id: "3",
-    title: "C",
-    icon: "",
+    title: "Bases de la Programmation",
+    icon: "https://cdn.discordapp.com/attachments/822839106001829908/850372098277900318/c-programming.png",
     chapters: [
       {
         id: "3-1",
@@ -134,8 +134,8 @@ const courses = [
   },
   {
     id: "4",
-    title: "Java",
-    icon: "",
+    title: "Programmation Orientée Objet",
+    icon: "https://cdn.discordapp.com/attachments/822839106001829908/850372498871681034/226777.png",
     chapters: [
       {
         id: "4-1",
@@ -237,8 +237,8 @@ const courses = [
   },
   {
     id: "5",
-    title: "Javascript",
-    icon: "",
+    title: "Programmation Orientée Web",
+    icon: "https://cdn.discordapp.com/attachments/822839106001829908/850373060645093406/javascript.png",
     chapters: [
       {
         id: "5-1",
