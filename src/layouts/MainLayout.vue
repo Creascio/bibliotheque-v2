@@ -5,11 +5,7 @@
         <q-toolbar-title class="text-h6 text-accent">
           Creascio Bibliotheque
         </q-toolbar-title>
-        <q-input class="q-ma-sm" bg-color="accent" placeholder="Search..." dense outlined disable>
-          <template v-slot:append>
-            <q-icon name="search" />
-          </template>
-        </q-input>
+        <search-bar/>
       </q-toolbar>
     </q-header>
     <q-page-container class="bg-dark">
@@ -19,13 +15,16 @@
 </template>
 
 <script>
+import { defineComponent } from '@vue/composition-api'
+import SearchBar from 'src/components/SearchBar.vue'
 
-export default {
-  name: 'MainLayout',
-  data () {
-    return {
+export default defineComponent({
+  components: {
+    SearchBar
+  },
+  setup() {
 
-    }
-  }
-}
+  },
+})
 </script>
+
