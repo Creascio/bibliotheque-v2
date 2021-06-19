@@ -1,6 +1,6 @@
 # Bibliotheque Creascio
 
-Ici vous pourrez très prochainement visualiser les cours fait par l'équipe des Helpers du serveur Discord de Creascio
+Ici vous pouvez visualiser les cours fait par l'équipe des Helpers du serveur Discord de Creascio
 
 Si vous avez des idées de fonctionnalités, des idées de design de pages ou autre élément du site ou si vous repérez des bugs dans l'application, vous pouvez
 les mettre en avant dans le salon `#📯-feedback` du discord Creascio
