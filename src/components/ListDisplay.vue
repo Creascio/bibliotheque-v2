@@ -1,16 +1,19 @@
 <template>
-  <q-list :class="listClassList" padding bordered separator>
+  <q-list :class="listClass" padding bordered separator>
     <q-item
-      :class="itemClassList"
-      v-for="item in contentList"
+      :class="itemClass"
+      v-for="item in content"
       :key="item.id"
-      :to="redirection + item.title.toLowerCase().replaceAll(' ', '-')"
+      :to="redirection + item.title.toLowerCase().split(' ').join('-')"
       clickable
     >
       <q-item-section avatar>
-        <q-avatar size="60px" rounded>
-          <q-img :src="item.icon" />
-        </q-avatar>
+        <div>
+          <q-img
+            :src="item.icon"
+            style="border: solid 3px white; height: 60px; width: 60px; border-radius: 5px"
+          />
+        </div>
       </q-item-section>
       <q-item-section>
         <q-item-label>{{ item.title }}</q-item-label>
@@ -20,19 +23,19 @@
 </template>
 
 <script>
-import { defineComponent } from '@vue/composition-api'
+import { defineComponent } from "@vue/composition-api";
 
 export default defineComponent({
   props: {
-    listClassList: {
+    listClass: {
       type: String,
       required: true
     },
-    itemClassList: {
+    itemClass: {
       type: String,
       required: true
     },
-    contentList: {
+    content: {
       type: Array,
       required: true
     },
@@ -41,8 +44,6 @@ export default defineComponent({
       required: true
     }
   },
-  setup(props) {
-    return props
-  },
-})
+  setup() {}
+});
 </script>
