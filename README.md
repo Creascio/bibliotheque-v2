@@ -16,5 +16,6 @@ Une fois approuvé, vous devez merge la pull request dans develop, supprimer vot
 
 Pour déployer vos modifications, écrivez dans un terminal de commande :
 
-- **quasar build** : Permet de créer ou mettre à jour le dossier dist qui représente votre projet coder en html, css, js
-- **yarn deploy** : Permet de mettre à jour master et donc la github page
+**quasar build** : Permet de créer ou mettre à jour le dossier dist qui représente votre projet coder en html, css, js
+
+Ensuite, il faut push sur master le contenu du dossier spa qui se trouver dans le dossier dist dans votre projet quasar.
