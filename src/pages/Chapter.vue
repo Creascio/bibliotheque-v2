@@ -97,11 +97,12 @@ export default defineComponent({
     color: rgb(255, 138, 167);
   }
 
-  .q-markdown--link {
+  .q-markdown--heading--anchor-link {
     pointer-events: none;
+    cursor: default;
   }
 
-  .q-markdown--link:hover {
+  .q-markdown--heading--anchor-link:hover {
     color: white;
   }
 
