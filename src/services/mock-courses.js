@@ -27,7 +27,7 @@ const courses = [
     chapters: [
       {
         id: "2-1",
-        title: "Environnement de travail",
+        title: "Environnement de travail (Git)",
         icon: "",
         markdown: git.environnement_travail_git
       },
@@ -64,7 +64,7 @@ const courses = [
     chapters: [
       {
         id: "3-1",
-        title: "Environnement de travail",
+        title: "Environnement de travail (C)",
         icon: "",
         markdown: c.environnement_travail_c
       },
@@ -101,7 +101,7 @@ const courses = [
     chapters: [
       {
         id: "4-1",
-        title: "Environnement de travail",
+        title: "Environnement de travail (Java)",
         icon: "",
         markdown: java.environnement_travail_java
       },
