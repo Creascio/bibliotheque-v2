@@ -70,7 +70,7 @@ const courses = [
       },
       {
         id: "3-2",
-        title: "Types primitifs et Variables",
+        title: "Variables et Types primitifs",
         icon: "",
         markdown: c.types_primitifs_variables
       },

@@ -1,7 +1,12 @@
 <template>
   <q-page class="markdown">
     <navigation-bar :title="chapterName" />
-    <q-markdown class="q-pa-md q-ma-md bg-grey-10 text-accent" :src="chapter.markdown" />
+    <div class="row justify-center">
+      <q-markdown
+        class="col-xs-12 col-md-8 q-pa-md q-ma-md bg-grey-10 text-accent"
+        :src="chapter.markdown"
+      />
+    </div>
   </q-page>
 </template>
 
@@ -46,6 +51,10 @@ export default defineComponent({
     border-bottom: none;
   }
 
+  strong {
+    color: rgb(97, 223, 245);
+  }
+
   a:hover {
     color: rgb(248, 228, 139);
   }
@@ -77,6 +86,9 @@ export default defineComponent({
   .function {
     color: rgb(66, 222, 250);
   }
+  .number {
+    color: rgb(255, 233, 107);
+  }
   .string {
     color: rgb(255, 233, 107);
   }
@@ -85,6 +97,12 @@ export default defineComponent({
   }
   .punctuation {
     color: white;
+  }
+  .boolean {
+    color: rgb(255, 233, 107);
+  }
+  em {
+    color: rgb(255, 142, 142);
   }
 
   .tag {
