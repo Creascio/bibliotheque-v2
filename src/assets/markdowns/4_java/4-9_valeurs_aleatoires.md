@@ -1,9 +1,5 @@
 # Valeurs Aléatoires
 
-## Prérequis
-
-+ [Interface Utilisateur]()
-
 ## Introduction
 
 Dans un programme informatique, on peut très souvent être ammené à utiliser des valeurs aléatoires ou plutôt pseudo-aléatoire. Il y'a plusieurs façons de générer des valeurs aléatoires en Java. Nous allons en voir deux.
@@ -66,7 +62,3 @@ On souhaite créer une ~~arnaque~~ fonctionnalité permettant à un utilisateur 
 + Pour 100% : `[user1] et [user2] = muy caliente`
 
 Développez une interface utilisateur permettant de récupérer le nom des deux utilisateurs et de produire un message aléatoire (l'amour c'est plus ce que c'était...)
-
-## Suivants
-
-+ [Dictionnaires]()

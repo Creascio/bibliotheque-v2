@@ -1,9 +1,5 @@
 # Dictionnaires
 
-## Prérequis
-
-+ [Valeurs Aléatoires]()
-
 ## Introduction
 
 Les dictionnaires ou Map sont des structures de données plus complexes qui permettent **d'associer une clé à une valeur**. Il ne peut pas y avoir plusieurs fois la même clé cependant. Cette structure fonctionne de manière quasi identique à un vrai dictionnaire pour faire une comparaison pratique.
@@ -62,8 +58,4 @@ dico.put('c', motsEnC);
 
 ## Exercices
 
-+
-
-## Suivants
-
-+ [Mode Debug]()
+*Coming soon...*

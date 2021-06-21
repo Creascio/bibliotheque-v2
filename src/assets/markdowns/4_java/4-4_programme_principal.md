@@ -1,49 +1,52 @@
 # Programme Principal
 
-## Prérequis
-
-+ [Méthodes]()
-
 ## Introduction
 
-Le main en java est une **méthode** qui représente le **programme principal**, c'est le bloc de code qui sera executé au lancement du projet.
+Le main en Java est une **méthode** qui représente le **programme principal**, c'est le bloc de code qui sera executé au lancement de l'**éxécution** du projet.
+
 Le main est généralement dans **une classe à part**. On peut le générer facilement dans tous les frameworks.
-C'est dans celui-ci qu'on **instancie nos objets** et qu'on **intéragit avec l'utilisateur** via la console par exemple.
+
+C'est dans celui-ci qu'on **instancie et manipule nos objets** et que l'on **intéragit avec l'utilisateur** via la console par exemple.
 
 ## Instancier des objets
 
-On doit instancier nos objets java pour pouvoir les manipuler. Pour cela on leur attribut de l'espace mémoire grâce à l'outil `new`.
+On doit instancier nos objets Java pour pouvoir les manipuler. Pour cela on leur attribut de l'espace mémoire grâce à l'outil `new`.
 
-**Exemple** :
+Un exemple d'instanciation :
 
-```java
+```
 Chien chien = new Chien(4, "Pluto");
 ```
 
 Ici on instancie un objet de type `Chien`. Le nom de variable de l'objet est `chien`. Le chien a 4 ans et il s'appelle Pluto.
 
-`chien.age : 4`
-`chien.nom : Pluto`
+On a donc :
 
-*Remarque* : on doit également instancier un tableau avant d'en faire usage.
+```
+chien.age = 4
+chien.nom = Pluto
+```
 
-**Exemple** :
+Les tableaux suivent le même comporter et doivent être instancier avant utilisation tout comme les objets :
 
-```java
-int tab[] = new int[10] // 10 indique la taille du tableau
+```
+// 10 indique la taille du tableau qui peut alors stocker 10 éléments
+int tab[] = new int[10]
 ```
 
 ## Affichage console
 
-On peut afficher des **chaînes de caractères** dans la console via la commande `print()` ou `println()` (la deuxième est la plus courante et permet de sauter une ligne après avoir afficher le contenu).
+On peut afficher des **chaînes de caractères** dans la console via la commande `print()` ou `println()`
 
-**Exemple** :
+*Remarque : la deuxième est la plus courante et permet de sauter une ligne dans l'affichage après avoir afficher le contenu.*
 
-```java
+Voici un exemple :
+
+```
 System.out.println("Hello World !");
 ```
 
-*Output* : `Hello world !`
+On obtient alors dans la console : `Hello world !`
 
 ## Exercices
 
@@ -108,7 +111,3 @@ Développez un **programme principal** permettant de produire ce résultat :
 `Je m'appelle Tutu et voici mon chien Dudu !`
 
 **Attention !** Votre programme ne doit contenir qu'**un seul appel à la console** (un seul `System.out.print()`) !
-
-## Suivants
-
-+ [Enumérations]()

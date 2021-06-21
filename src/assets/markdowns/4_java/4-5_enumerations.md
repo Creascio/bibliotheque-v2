@@ -1,78 +1,86 @@
 # Enumerations
 
-## Prérequis
-
-+ [Programme Principal]()
-
 ## Introduction
 
-Les énumerations, ou enum, permettent de créer une **famille de valeurs possibles pour représenter un concept**. L'enum n'est pas une classe et ces valeurs ne sont pas des objets à part entière. Un enum est une liste de constantes.
+Les énumerations, ou Enum, permettent de créer une **famille de valeurs possibles pour représenter un concept**.
+
+L'Enum n'est pas une classe et ces valeurs ne sont pas des objets à part entière. Un Enum est **une liste de constantes**.
 
 ## Usage
 
-On peut se servir d'un enum pour des attributs ou des variables. Les enums sont utiles lorsque l'on sait que l'on va avoir des valeurs qui ne vont jamais changer comme les mois, les jours de la semaine ou encore les couleurs.
+On peut se servir des valeurs d'un Enum pour attribuer une valeur à **des attributs ou des variables**.
 
-## Composition
+Les Enums sont utiles lorsque **l'on sait que l'on va avoir des valeurs qui ne vont jamais changer** comme les mois, les jours de la semaine ou encore les couleurs.
 
-Un enum contient essentiellement des valeurs possibles :
+## Composition et Utilisation
 
-**Exemple** :
+Un Enum contient essentiellement des valeurs possibles :
 
-```java
-public enum Couleur {
-    rouge, vert, bleu, jaune;
+```
+public Enum Couleur {
+  rouge, vert, bleu, jaune;
 }
 ```
 
-```java
+Voici un cas d'utilisation dans une classe :
+
+```
 public class Peinture {
-    private int prix;
-    private Couleur couleur;
+  private int prix;
+  private Couleur couleur;
 }
 ```
 
-```java
+Et un exemple d'instanciation :
+
+```
 Peinture p = new Peinture();
 p.couleur = Couleur.rouge;
 ```
 
-On voit ici un cas concret d'utilisation d'un enum et comment accéder à une valeur de cet enum.
-Ici l'enum est très simple et ne stocke que des valeurs mais il peut être plus complexe :
+On voit ici un cas concret d'utilisation d'un Enum et comment accéder à une valeur de cet Enum.
 
-```java
-public enum Couleur {
-    rouge('r'),
-    vert('v'),
-    bleu('b'),
-    jaune('j');
+Ici l'Enum est très simple et ne stocke que des valeurs mais il peut être plus complexe.
 
-    private char symbole;
+## Paramétrage
 
-    private Couleur(char symbole){
-        this.symbole = symbole;
-    }
+Un Enum peut avoir des **attributs**. **Chacune de ses constantes** possède une valeur pour ses attributs. On dit que l'Enum est **paramétré**.
 
-    public char getSymbole(){
-        return this.symbole;
-    }
+Voici un exemple :
+
+```
+public Enum Couleur {
+  rouge('r'),
+  vert('v'),
+  bleu('b'),
+  jaune('j');
+
+  private char symbole;
+
+  private Couleur(char symbole){
+    this.symbole = symbole;
+  }
+
+  public char getSymbole(){
+    return this.symbole;
+  }
 }
 ```
 
-Un enum peut avoir des attributs et alors chaque valeur de l'enum aura des valeur pour ses attributs.
-Si un enum est paramétré alors on créé un constructeur privé capable d'instancier toutes les valeurs et éventuellement des getters et des setters.
+Dans l'exemple du dessus, on associe à chaque couleur un `symbole` représenté par un caractère.
 
-*Remarque* : le constructeur n'est utile que pour ajouter de nouvelles valeurs (ici de nouvelles couleurs), on n'a pas besoin d'instancier les valeurs d'un enum car ce ne sont pas des objets mais des constantes !
+Si un Enum est paramétré alors on créé un **constructeur privé** capable d'instancier toutes ses constantes et éventuellement des **getters et des setters**.
 
-Les méthodes de la classe Enum sont les suivantes :
+*Remarque : le constructeur n'est utile que pour paramétrer les constantes existantes ou pour ajouter de nouvelles constantes durant le programme (ici de nouvelles couleurs), on n'a pas besoin d'instancier les constantes d'un Enum avant emploi car ce ne sont pas des objets !*
 
-+ `values()` : renvoie toutes les valeurs de l'enum sous forme de tableau
-+ `ordinal()` : renvoie l'index de la valeur appelante dans la liste de valeurs
-+ `valueOf(String)` : retourne la valeur correspondante à la chaine de caractère si la valeur existe
+## Méthodes
+
+Les méthodes de la classe `Enum` sont les suivantes :
+
++ `values()` : renvoie toutes les constantes de l'Enum sous forme de tableau
++ `ordinal()` : renvoie l'index de la constante appelante dans la liste de constantes
++ `valueOf(String)` : retourne la constante correspondante à la chaine de caractère si la constante du même nom existe dans l'Enum
 
 ## Exercices
 
-+
-
-## Suivants
-
-+ [Bibliotheques]()
+*Coming soon...*

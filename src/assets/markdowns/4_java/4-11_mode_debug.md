@@ -1,9 +1,5 @@
 # Mode Debug
 
-## Prérequis
-
-+ [Dictionnaires]()
-
 ## Introduction
 
 Lorsque notre programme plante ou ne produit pas le résultat attendu sans que l'on puisse facilement trouver la cause du problème, une bonne pratique est de lancer le programme en **mode débug**. Ce mode possède plusieurs fonctionnalités permettant de faire progresser le programme **pas à pas** c'est à dire commande par commande.
@@ -39,8 +35,4 @@ En fonction de votre IDE vous pouvez également avoir une vue debug qui permet d
 
 ## Exercices
 
-+
-
-## Suivants
-
-+ [Tests Unitaires]()
+*Coming soon...*

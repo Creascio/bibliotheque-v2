@@ -1,9 +1,5 @@
 # Environnement de travail
 
-## Prérequis
-
-+
-
 ## Introduction
 
 Dans ce cours nous allons apprendre à manipuler un compilateur
@@ -16,12 +12,4 @@ Pour ce faire, nous allons utiliser (https://www.tutorialspoint.com/compile_c_on
 
 Vous pourrez écrire votre code dans le champ de gauche puis **Execute** pour obtenir le résultat dans la console à droite
 
-Il sera possible de passer des informations en entrée de votre programme dans l'onglet STDIN
-
-## Exercices
-
-+
-
-## Suivants
-
-+ [Types primitifs et Variables]()
+Il sera possible de passer des informations en entrée de votre programme dans l'onglet STDIN.

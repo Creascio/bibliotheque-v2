@@ -1,46 +1,26 @@
 # Environnement de travail
 
-## Prérequis
-
-+
-
 ## Introduction
 
-Git est un outil de gestion de projet, il permet de travailler à plusieurs sur le même projet tout en évitant le problème de versionning (Le fait d'avoir plein de versions différentes d'un projet).
+Git est un outil de **gestion de projet**, il permet de travailler à **plusieurs sur le même projet** tout en évitant le problème de versionning (Le fait d'avoir plusieurs versions différentes d'un même projet).
 
-C'est aussi un outil pratique pour travailler seul étant donné que les données sont hébergées sur un cloud.
+C'est aussi un outil pratique pour travailler seul étant donné que les données sont hébergées sur un **Cloud**.
 
 Dans ce tutoriel, nous allons apprendre les bases de l'utilisation de Git.
 
-Pour nous faciliter la vie, nous allons utiliser une application liée à Git qui se nomme **GitHub Desktop** mais sachez que ce n'est pas la seule manière d'utiliser Git. En effet, vous pouvez aussi intéragir avec le cloud depuis le site de github, un terminal de commande ou d'autres applications clientes comme Fork.
+Pour nous faciliter la vie, nous allons utiliser une application liée à Git qui se nomme **GitHub Desktop** mais sachez que ce n'est pas la seule manière d'utiliser Git.
+
+En effet, vous pouvez aussi intéragir avec le cloud depuis le site de github, un terminal de commande ou d'autres applications clientes comme [Fork](https://git-fork.com/).
 
 ## Setup
 
-Liens utiles :
+Pour ce cours nous aurons besoin de :
 
-+ [GitHub.com](https://github.com/)
-+ [GitHub Desktop download](https://desktop.github.com/)
++ créer un compte [GitHub](https://github.com/)
++ télécharger l'outil bureau [GitHub Desktop](https://desktop.github.com/)
 
-Vous avez maintenant votre compte Github !
+GitHub est la plateforme centrale qui nous permet de **visualiser le contenu** que l'on héberge sur le Cloud git. Elle permet également de **paramétrer un projet**, d'inviter des **collaborateurs**.
 
-Entrer le login et mot de passe de votre compte GitHub. Cliquer ensuite sur **Continue**
-puis sur **Finish**. Après cela, vous devriez tomber l'écran ci-dessous.
+Elle propose également de nombreux outils utiles à la **conception** et à la **planification** d'un projet.
 
-Vous avez tout installé, bravo !
-
-## Paramètrage
-
-Comme de nombreux outils, GitHub Desktop proposent différentes options de configuration que ce soit pour son interface ou pour la façon dont il intéragit avec la version net.
-
-### Apparence
-
-Si vous voulez mettre un thème sombre, aller dans **File** (en haut à gauche) puis cliquer sur **Options**.
-Une nouvelle fenêtre apparaitra, cliquer sur **Appearance** puis sur **Dark**.
-
-## Exercices
-
-+
-
-## Suivants
-
-+ [Bases de Github]()
+GitHub Desktop est un outil complémentaire à GitHub qui permet **manipuler le contenu** de projet git notamment.

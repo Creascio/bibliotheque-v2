@@ -1,9 +1,5 @@
 # Polymorphisme
 
-## Prérequis
-
-+ [Abstraction et Héritage]()
-
 ## Introduction
 
 Lorsqu'un programme contient des liens d'héritages, cela implique un lien entre les **implémentations des méthodes de la classe mère dans les classes filles**. Le polymorphisme est une mécanique de l'orientée objet qui permet d'encore plus réduire la **redondance** et la **dépendance entre les classes**.
@@ -74,8 +70,4 @@ L'annotation `@Override` indique au compilateur de préférer la version de la m
 
 ## Exercices
 
-+
-
-## Suivants
-
-+ [Abstraction et Interface]()
+*Coming soon...*

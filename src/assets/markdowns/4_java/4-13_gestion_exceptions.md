@@ -1,9 +1,5 @@
 # Gestion des Exceptions
 
-## Prérequis
-
-+ [Tests unitaires]()
-
 ## Introduction
 
 Les exceptions font partie intégrante du développement d'un programme. Elle indique le type et la provenance d'une erreur durant l'exécution du programme. Heuresement on peut se prévenir de ces erreurs et les gérer correctement pour ne pas que le programme plante.
@@ -101,8 +97,4 @@ catch (IllegalArgumentException | NumberFormatException | ArithmeticException
 
 ### Exercices
 
-+
-
-### Suivants
-
-+ [Abstration et Héritage]()
+*Coming soon...*

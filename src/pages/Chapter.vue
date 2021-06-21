@@ -47,18 +47,18 @@ export default defineComponent({
 <style lang="scss">
 .markdown {
   a {
-    color: rgb(252, 223, 93);
+    color: rgb(97, 223, 245);
     border-bottom: none;
   }
-
-  strong {
-    color: rgb(97, 223, 245);
-  }
-
   a:hover {
+    color: rgb(97, 161, 245);
+  }
+  strong {
     color: rgb(248, 228, 139);
   }
-
+  em {
+    color: rgb(180, 180, 180);
+  }
   img {
     display: block;
     margin-left: auto;
@@ -67,30 +67,29 @@ export default defineComponent({
     margin-bottom: 15px;
     width: 60%;
   }
-
-  .q-markdown--token {
-    color: white;
-    background-color: #3e4146;
-  }
-
-  .q-markdown--line-numbers-wrapper {
-    background-color: #3e4146;
-    color: white;
-  }
-
   pre {
     background-color: #3e4146;
     color: white;
   }
-
+  .q-markdown--token {
+    color: white;
+    background-color: #3e4146;
+  }
+  .q-markdown--line-numbers-wrapper {
+    background-color: #3e4146;
+    color: white;
+  }
   .function {
-    color: rgb(66, 222, 250);
+    color: rgb(97, 223, 245);
   }
   .number {
-    color: rgb(255, 233, 107);
+    color: rgb(248, 228, 139);
   }
   .string {
-    color: rgb(255, 233, 107);
+    color: rgb(248, 228, 139);
+  }
+  .boolean {
+    color: rgb(248, 228, 139);
   }
   .operator {
     color: white;
@@ -98,32 +97,20 @@ export default defineComponent({
   .punctuation {
     color: white;
   }
-  .boolean {
-    color: rgb(255, 233, 107);
-  }
-  em {
-    color: rgb(255, 142, 142);
-  }
-
   .tag {
-    color: rgb(66, 222, 250);
+    color: rgb(97, 223, 245);
   }
   .attr-name {
-    color: rgb(255, 233, 107);
+    color: rgb(248, 228, 139);
   }
   .attr-value {
-    color: rgb(255, 138, 167);
+    color: rgb(255, 178, 142);
   }
-
   .q-markdown--heading--anchor-link {
+    color: rgb(97, 161, 245);
     pointer-events: none;
     cursor: default;
   }
-
-  .q-markdown--heading--anchor-link:hover {
-    color: white;
-  }
-
   @media (max-width: $breakpoint-sm-max) {
     img {
       width: 100%;

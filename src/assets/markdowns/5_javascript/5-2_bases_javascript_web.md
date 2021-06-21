@@ -1,9 +1,5 @@
 # Bases de Javascript pour le Web
 
-## Prérequis
-
-+ [Bases de Javascript]()
-
 ## Introduction
 
 Le Javascript est une pièce maitresse du développement Web, c'est le langage de compilation de tous les navigateurs existants, c'est à dire que c'est ce langage qui permet au navigateur de produire des pages web sous la forme à laquelle nous sommes habitués. Le Javascript permet également de rendre le contenu d'une page web dynamique, d'y injecter de l'algorithmie et du traitement de donnée, d'intéragir avec des API, bref, la liste est longue.
@@ -203,8 +199,4 @@ elt.replaceChild(document.createElement("article"), newElt); // Remplace l'élé
 
 ## Exercices
 
-+
-
-## Suivants
-
-+
+*Coming soon...*

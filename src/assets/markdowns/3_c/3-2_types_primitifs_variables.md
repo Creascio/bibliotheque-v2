@@ -79,4 +79,4 @@ Un tableau comme son nom l'indique est une suite d'emplacements. Pour naviguer d
 
 ## Exercices
 
-- Coming soon...
+*Coming soon...*

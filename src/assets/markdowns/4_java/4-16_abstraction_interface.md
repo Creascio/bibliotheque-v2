@@ -1,9 +1,5 @@
 # Abstraction et Interface
 
-## Prérequis
-
-+ [Polymorphisme]()
-
 ## Introduction
 
 Il existe d'autres moyens que les liens d'héritage pour rendre durable du code java. On peut établir des **contrats** avec les classes pour qu'elles implémente des **comportements**. Cela se fait au travers des **interfaces**.
@@ -75,8 +71,4 @@ L'héritage et l'interface sont des mécanismes qui **ne sont pas incompatibles*
 
 ## Exercices
 
-+
-
-## Suivants
-
-+
+*Coming soon...*

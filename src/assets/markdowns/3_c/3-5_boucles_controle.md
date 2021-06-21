@@ -1,21 +1,13 @@
 # Boucles de Contrôle
 
-## Prérequis
-
-+ [Condition Booléennes]()
-
 ## Introduction
 
-// TODO: à compléter
+*Coming soon...*
 
 ## Contenu
 
-// TODO: à compléter
+*Coming soon...*
 
 ## Exercices
 
-+
-
-## Suivants
-
-+
+*Coming soon...*

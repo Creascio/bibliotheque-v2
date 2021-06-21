@@ -1,9 +1,5 @@
 # Tests Unitaires
 
-## Prérequis
-
-+ [Mode Debug]()
-
 ## Introduction
 
 La phase de test est une partie non négligeable de tout projet informatique. Les tests unitaires permettent de s'assurer du bon fonctionnement des méthodes de notre programme.
@@ -211,8 +207,4 @@ public class CalculTest {
 
 ## Exercices
 
-+
-
-### Suivants
-
-+ [Gestion des Exceptions]()
+*Coming soon...*

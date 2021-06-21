@@ -1,12 +1,10 @@
 # Base de GitHub
 
-## Prérequis
-
-+ [Environnement de travail]()
-
 ## Introduction
 
-GitHub est un outil de gestion de projets git. C'est une plateforme en ligne qui permet à ses utilisateurs de stocker leur contenu sur le cloud pour facilier le versionning et la collaboration entre les membres d'une équipe. Il propose de nombreux autres outils qui facilitent la conception et la gestion de projet.
+GitHub est un outil de **gestion de projets** git. C'est une plateforme en ligne qui permet à ses utilisateurs de **stocker leur contenu sur le cloud** pour facilier le versionning et la **collaboration entre les membres** d'une équipe.
+
+Il propose de nombreux autres outils qui facilitent la **conception** et la **gestion de projet**.
 
 *Remarque : il existe d'autres plateformes du même genre mais nous utiliserons GitHub dans le cadre de ce cours.*
 
@@ -84,35 +82,23 @@ Cette action est irreversible donc attention !
 
 ## Exercices
 
-``(Q1) Création de projet``
+### Question 1 : Création de projet
 
-```txt
 Créez un repository appelé "Test", mettez en description "Je suis un repository test", mettez le en privé et ajouter un README.
-```
 
 Après avoir cliqué sur ``<> Code`` voici ce que vous devriez avoir comme résultat :
 
 <img src="https://cdn.discordapp.com/attachments/822839106001829908/828643996434956328/unknown.png" align="center"/>
 
-``(Q2) Faire un commit``
+### Question 2 :  Faire un commit
 
-```txt
-Modifier le contenu de votre README : "Premier projet git, c'est beau !" (N'oubliez pas de commit)
-Vous verrez son aperçu changer en revenant à la racine de votre branche
-```
+Modifiez le contenu de votre README : "Premier projet git, c'est beau !" (N'oubliez pas de commit !)*
+Vous verrez son aperçu changer en revenant à la racine de votre branche.
 
-``(Q3) Ajouter un collaborator``
+### Question 3 : Ajouter un collaborator
 
-```txt
-Inviter "Shiropetite" dans votre repository.
-```
+Invitez `Shiropetite` dans votre repository.
 
-``(Q4) Supprimer votre repository``
+### Question 4 : Supprimer votre repository
 
-```txt
-Ce repository n'est pas très utile avec juste un README. Nous allons donc supprimer ce repository.
-```
-
-## Suivants
-
-+ [Bases de Github Desktop]()
+Ce repository n'est pas très utile avec juste un README. Nous allons donc le supprimer.

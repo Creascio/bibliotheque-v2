@@ -1,9 +1,5 @@
 # Interface Utilisateur
 
-## Prérequis
-
-+ [Collection et Iterable]()
-
 ## Introduction
 
 Un scanner est un objet permettant de récupérer des informations provenant d'un flux. En java il existe différents types de flux :
@@ -17,7 +13,7 @@ On peut positionner un scanner sur certains de ces flux pour en récupérer le c
 
 Un objet de type Scanner s'instancie de cette manière :
 
-```java
+```
 Scanner sc = new Scanner(System.in);
 ```
 
@@ -95,7 +91,7 @@ System.out.println("Fin du programme");
 
 `Fin du programme`
 
-*Remarque* : le code au dessus est seulement un exemple qui peut et doit être adapté en fonction de la situation
+*Remarque : le code au dessus est seulement un exemple qui peut et doit être adapté en fonction de la situation*
 
 ## Fichier externe
 
@@ -105,9 +101,7 @@ Tout d'abord il faut récupérer le fichier de texte grâce à un objet de type 
 
 On doit instancier un objet de type File avec en paramètre le chemin (relatif ou absolu) du fichier. Le plus simple est, si vous le pouvez, de placer le fichier à la racine du projet c'est à dire au même niveau que le dossier `src`. Le scanner doit ensuite être placé sur le fichier.
 
-**Exemple** :
-
-```java
+```
 File file = new File("toto.txt");
 Scanner sc = new Scanner(file);
 // tant que le scanner n'est pas arrivé au bout du fichier
@@ -117,23 +111,8 @@ while(sc.hasNext()){
 }
 ```
 
-*Remarque* : bien qu'on ne puisse pas écrire dans un fichier avec un Scanner il y a bien d'autres façons de traiter un fichier que dans cet exemple.
+*Remarque : bien qu'on ne puisse pas écrire dans un fichier avec un Scanner il y a bien d'autres façons de traiter un fichier que dans cet exemple.*
 
 ## Exercices
 
-### Exercice 1 : Rézo zocial
-
-On souhaite créer un réseau social miniature. Chaque utilisateur pourra soit :
-
-+ Entrer son nom pour pouvoir ensuite écrire un post
-+ Entrer le nom d'un autre utilisateur pour voir ses posts, à la condition que l'utilisateur existe
-
-*Remarque* : il n'est pas question ici de faire une sauvegarde des utilisateurs et de leurs posts entre plusieurs éxécutions du programme, tout sera géré en interne.
-
-Le but de cet exercice est de créer une interface utilisateur qui permettent au maximum de couvrir les erreurs de saisie.
-
-***TODO : à compléter***
-
-## Suivants
-
-+ [Valeurs Aléatoires]()
+*Coming soon...*

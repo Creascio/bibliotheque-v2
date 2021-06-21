@@ -1,21 +1,13 @@
 # Affichage Console
 
-## Prérequis
-
-+ [Types primitifs et Variables]()
-
 ## Introduction
 
-// TODO: à compléter
+*Coming soon...*
 
 ## Contenu
 
-// TODO: à compléter
+*Coming soon...*
 
 ## Exercices
 
-+
-
-## Suivants
-
-+ [Conditions Booléennes]()
+*Coming soon...*

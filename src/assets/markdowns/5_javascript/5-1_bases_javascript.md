@@ -219,12 +219,8 @@ const laVerite = Chat.verite(10) // 'Les chats sont 10 fois meilleurs que les ch
 
 ## Tests unitaires
 
-// TODO: tests unitaires
+*Coming soon...*
 
 ## Exercices
 
-+
-
-## Suivants
-
-+ [Bases de Javascript pour le Web]()
+*Coming soon...*

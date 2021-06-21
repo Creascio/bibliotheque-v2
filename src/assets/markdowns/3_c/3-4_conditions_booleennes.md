@@ -1,21 +1,13 @@
 # Conditions Booléennes
 
-## Prérequis
-
-+ [Affichage Console]()
-
 ## Introduction
 
-// TODO: à compléter
+*Coming soon...*
 
 ## Contenu
 
-// TODO: à compléter
+*Coming soon...*
 
 ## Exercices
 
-+
-
-## Suivants
-
-+ [Boucles de Contrôle]()
+*Coming soon...*
