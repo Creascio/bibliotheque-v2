@@ -2,7 +2,11 @@
 
 ## Introduction
 
-Le but principal du java est de pouvoir produire du code **le plus généraliste possible** pour pouvoir **faciliter la maintenance** et les **modifications ultérieures**. Ainsi on essaye toujours de coder en partant du **cas le plus général** vers **les spécialisations éventuelles** de ce cas en gardant toujours en tête que le but est de supprimer la **redondance de code**. Cette façon de coder entraîne une notion de **hiérarchie entre les classes** d'où la notion d'héritage.
+Le but principal du Java est de pouvoir produire du code **le plus généraliste possible** pour pouvoir **faciliter la maintenance** et les **modifications ultérieures**.
+
+Ainsi on essaye toujours de coder en partant du **cas le plus général** vers **les spécialisations éventuelles** de ce cas en gardant toujours en tête que le but est de supprimer la **redondance de code**.
+
+Cette façon de coder tend à entraîner une **hiérarchie entre les classes** d'où la notion d'héritage.
 
 ## Principe
 
@@ -61,7 +65,7 @@ public static void main(String[] args){
 }
 ```
 
-*Output* :
+_Output_ :
 
 `MIAM MIAM`
 
@@ -149,4 +153,4 @@ Ici, en partant du principe que les classes `Chien`, `Chat` et `Oiseau` hériten
 
 ## Exercices
 
-*Coming soon...*
+_Coming soon..._
