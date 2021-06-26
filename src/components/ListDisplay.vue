@@ -1,5 +1,5 @@
 <template>
-  <q-list :class="listClass" padding bordered separator>
+  <q-list :class="listClass">
     <q-item
       :class="itemClass"
       v-for="item in content"
@@ -11,7 +11,12 @@
         <div>
           <q-img
             :src="item.icon"
-            style="border: solid 3px white; height: 60px; width: 60px; border-radius: 5px"
+            style="
+              border: solid 3px white;
+              height: 60px;
+              width: 60px;
+              border-radius: 5px;
+            "
           />
         </div>
       </q-item-section>
@@ -29,21 +34,21 @@ export default defineComponent({
   props: {
     listClass: {
       type: String,
-      required: true
+      required: true,
     },
     itemClass: {
       type: String,
-      required: true
+      required: true,
     },
     content: {
       type: Array,
-      required: true
+      required: true,
     },
     redirection: {
       type: String,
-      required: true
-    }
+      required: true,
+    },
   },
-  setup() {}
+  setup() {},
 });
 </script>

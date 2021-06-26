@@ -3,7 +3,7 @@
     <q-header elevated>
       <q-toolbar class="bg-primary row justify-between" style="height: 55px">
         <div>
-          <q-btn to="/" no-caps flat dense class="text-h6 text-accent">
+          <q-btn to="/" no-caps flat dense class="text-h6 text-white">
             <q-img src="icons/logo-bibliotheque-v2.png" style="height: 40px; width: 40px" />
             <div class="gt-xs">Creascio</div>
           </q-btn>

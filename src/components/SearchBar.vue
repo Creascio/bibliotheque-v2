@@ -4,7 +4,7 @@
       <q-select
         dense
         label="Rechercher un chapitre (2 caractères)"
-        standout="bg-white text-grey-7"
+        standout="bg-white text-grey"
         use-input
         input-class="text-grey-9"
         bg-color="white"
@@ -18,7 +18,7 @@
               <q-item-label v-html="scope.opt" />
             </q-item-section>
           </q-item>
-          <q-separator color="grey-4" />
+          <q-separator color="grey" />
         </template>
         <template v-slot:no-option>
           <q-item>
@@ -34,15 +34,15 @@
 import courses from "src/services/mock-courses.js";
 
 const chaptersNames = [];
-courses.forEach(course => {
-  course.chapters.forEach(chapter => chaptersNames.push(chapter.title));
+courses.forEach((course) => {
+  course.chapters.forEach((chapter) => chaptersNames.push(chapter.title));
 });
 
 export default {
   data() {
     return {
       model: null,
-      options: chaptersNames
+      options: chaptersNames,
     };
   },
   methods: {
@@ -54,24 +54,21 @@ export default {
       update(() => {
         const needle = val.toLowerCase();
         this.options = chaptersNames.filter(
-          v => v.toLowerCase().indexOf(needle) > -1
+          (v) => v.toLowerCase().indexOf(needle) > -1
         );
       });
     },
     getPath(selectedValue) {
       let path = "";
-      courses.forEach(course => {
+      courses.forEach((course) => {
         const chapter = course.chapters.find(
-          chapter => chapter.title === selectedValue
+          (chapter) => chapter.title === selectedValue
         );
         if (chapter) path = `/${course.title}/${chapter.title}`;
       });
-      return path
-        .toLowerCase()
-        .split(" ")
-        .join("-");
-    }
-  }
+      return path.toLowerCase().split(" ").join("-");
+    },
+  },
 };
 </script>
 

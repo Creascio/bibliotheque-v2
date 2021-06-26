@@ -1,0 +1,114 @@
+@import 'quasar/src/css/variables.sass';
+@import './quasar.variables.scss';
+
+.markdown {
+
+  // md header
+  .q-markdown--heading--anchor-link {
+    color: $secondary;
+    pointer-events: none;
+    cursor: default;
+  }
+
+  // links
+  a {
+    color: $secondary;
+    border-bottom: none;
+  }
+
+  a:hover {
+    color: $cyan-3;
+  }
+
+  // bold
+  strong {
+    color: $accent;
+  }
+
+  // italic
+  em {
+    color: $grey;
+  }
+
+  // image
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 60%;
+  }
+
+  // code block
+  .q-markdown--token {
+    color: white;
+    background-color: $grey-5;
+  }
+
+  .q-markdown--line-numbers-wrapper {
+    background-color: $grey-5;
+    color: white;
+  }
+
+  .q-markdown--code {
+    background-color: $grey-5;
+    color: white;
+  }
+
+  // code elements
+  // js
+  .token {
+    &.class-name {
+      color: $secondary
+    }
+
+    &.constant {
+      color: $secondary
+    }
+
+    &.function {
+      color: $secondary;
+    }
+
+    &.number {
+      color: $accent;
+    }
+
+    &.string {
+      color: $accent;
+    }
+
+    &.boolean {
+      color: $accent;
+    }
+
+    &.operator {
+      color: $white;
+    }
+
+    &.punctuation {
+      color: $white;
+    }
+
+    // html
+    &.tag {
+      color: $secondary;
+    }
+
+    &.attr-name {
+      color: $accent;
+    }
+
+    &.attr-value {
+      color: $green-4;
+    }
+  }
+
+  // for mobile screensize
+  @media (max-width: $breakpoint-sm-max) {
+    img {
+      width: 100%;
+    }
+  }
+}

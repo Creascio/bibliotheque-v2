@@ -1,12 +1,14 @@
 <template>
   <q-page>
     <navigation-bar :title="course" />
-    <list-display
-      listClass="q-pa-md"
-      itemClass="q-pa-sm q-mb-sm bg-grey-10 text-h6 text-accent"
-      :content="chapters"
-      :redirection="course + '/'"
-    />
+    <div class="row justify-center">
+      <list-display
+        listClass="q-pa-md q-gutter-sm col-8"
+        itemClass="bg-grey-9 text-h6 text-white"
+        :content="chapters"
+        :redirection="course + '/'"
+      />
+    </div>
   </q-page>
 </template>
 
@@ -19,24 +21,24 @@ import NavigationBar from "src/components/NavigationBar.vue";
 export default defineComponent({
   components: {
     ListDisplay,
-    NavigationBar
+    NavigationBar,
   },
   props: {
     courseName: {
       type: String,
-      required: true
-    }
+      required: true,
+    },
   },
   setup(props) {
     const course = courses.find(
-      course =>
+      (course) =>
         course.title.toLowerCase().replaceAll(" ", "-") === props.courseName
     );
     return {
       course: props.courseName,
-      chapters: course.chapters
+      chapters: course.chapters,
     };
-  }
+  },
 });
 </script>
 

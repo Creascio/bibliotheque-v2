@@ -5,12 +5,12 @@
 </template>
 <script>
 export default {
-  name: "App"
+  name: "App",
 };
 </script>
-<style>
+<style lang="scss">
 html {
-  background-color: #101010;
-  color: #ededed;
+  background-color: $dark;
+  color: $white;
 }
 </style>
