@@ -20,4 +20,6 @@ Une fois informé un reviewer peut voir le contenu de la branche entrante et not
 
 ## Exercices
 
-*Coming soon...*
+_Coming soon..._
+
+_Auteur : Léo SALLARD._

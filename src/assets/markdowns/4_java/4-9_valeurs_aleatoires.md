@@ -86,3 +86,5 @@ On souhaite créer une ~~arnaque~~ fonctionnalité permettant à un utilisateur 
 - Pour 100% : `[user1] et [user2] = muy caliente`
 
 Développez une interface utilisateur permettant de récupérer le nom des deux utilisateurs et de produire un message aléatoire (l'amour c'est plus ce que c'était...)
+
+_Auteur : Léo SALLARD._

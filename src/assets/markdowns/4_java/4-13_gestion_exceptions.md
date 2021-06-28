@@ -171,3 +171,5 @@ _Remarque : même si cela peut paraître lourd, il ne faut pas hésitez à utili
 ### Exercices
 
 _Coming soon..._
+
+_Auteur : Léo SALLARD._

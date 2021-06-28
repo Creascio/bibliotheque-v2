@@ -45,7 +45,7 @@ public class Toto {
 }
 ```
 
-*Remarque : on ne détaille pas le fonctionnement de la classe `ArrayList` ici. Cet exemple à pour but de montrer ce qu'il est possible grâce à un import*
+_Remarque : on ne détaille pas le fonctionnement de la classe `ArrayList` ici. Cet exemple à pour but de montrer ce qu'il est possible grâce à un import_
 
 On peut importer tout le contenu d'une bibliothèque ou d'un package en utilisant `*` :
 
@@ -57,10 +57,12 @@ Cet import permet de récupérer le contenu de toutes les classes contenu dans l
 
 Vous pouvez également importer vos propres classes vers d'autres parties de votre programme si elle en ont besoin. Par exemple on import la classe à tester dans la feuille de tests unitaires.
 
-*Remarque : la plupart des IDE permettent l'importation automatique des bibliothèques nécessaires au fonctionnement de votre code. Vous aurez donc rarement besoin de vous en soucier.*
+_Remarque : la plupart des IDE permettent l'importation automatique des bibliothèques nécessaires au fonctionnement de votre code. Vous aurez donc rarement besoin de vous en soucier._
 
-*Remarque : Il existe d'autres outils permettant l'exploitation de code externe autre que l'import en brut dans le code mais nous n'en parlerons pas dans ce cours.*
+_Remarque : Il existe d'autres outils permettant l'exploitation de code externe autre que l'import en brut dans le code mais nous n'en parlerons pas dans ce cours._
 
 ## Exercices
 
-*Coming soon...*
+_Coming soon..._
+
+_Auteur : Léo SALLARD._

@@ -2,12 +2,14 @@
 
 ## Introduction
 
-*Coming soon...*
+_Coming soon..._
 
 ## Contenu
 
-*Coming soon...*
+_Coming soon..._
 
 ## Exercices
 
-*Coming soon...*
+_Coming soon..._
+
+_Auteur : Sofia DA SILVA RIBEIRO._

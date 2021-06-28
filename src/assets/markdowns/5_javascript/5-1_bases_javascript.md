@@ -218,3 +218,5 @@ _Coming soon..._
 ## Exercices
 
 _Coming soon..._
+
+_Auteur : Léo SALLARD._

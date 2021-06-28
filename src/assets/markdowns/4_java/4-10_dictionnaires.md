@@ -85,3 +85,5 @@ dico.put('c', motsQuiCommenceParC);
 ## Exercices
 
 _Coming soon..._
+
+_Auteur : Léo SALLARD._

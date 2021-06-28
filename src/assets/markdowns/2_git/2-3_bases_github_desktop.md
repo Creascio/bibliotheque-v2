@@ -18,11 +18,11 @@ A droite, cliquez sur `Current repository`. Cela vous ouvrira un menu qui contie
 
 Lorsque vous cliquez sur `Add` trois choix s'offrent à vous :
 
-+ `Clone repository` : **Copiez votre projet Git sur votre pc** (ou un repository public). Lorsque vous cliquez, cela vous ouvrira une fenêtre qui vous proposera soit de choisir parmi les repository auquels vous avez accès, soit d'insérer l'url ou nom d'un repository. Dans tout les cas vous devrez aussi insérer **l'endroit où vous voulez sauvegarder** ce repository.
+- `Clone repository` : **Copiez votre projet Git sur votre pc** (ou un repository public). Lorsque vous cliquez, cela vous ouvrira une fenêtre qui vous proposera soit de choisir parmi les repository auquels vous avez accès, soit d'insérer l'url ou nom d'un repository. Dans tout les cas vous devrez aussi insérer **l'endroit où vous voulez sauvegarder** ce repository.
 
-+ `Create new repository` : **Créez un repository de 0**. Lorsque vous cliquez, cela vous ouvrira une fenêtre qui vous demandera le nom, la potentielle description, le chemin où vous voulez stocker votre projet et enfin si vous voulez ajouter un README. Vous aurez en plus le choix d'ajouter un .gitignore (choisissez simplement le langage que vous allez utiliser).
+- `Create new repository` : **Créez un repository de 0**. Lorsque vous cliquez, cela vous ouvrira une fenêtre qui vous demandera le nom, la potentielle description, le chemin où vous voulez stocker votre projet et enfin si vous voulez ajouter un README. Vous aurez en plus le choix d'ajouter un .gitignore (choisissez simplement le langage que vous allez utiliser).
 
-+ `Add existing repository` : **Ajoutez un repository git déjà présent localement sur votre pc** (il doit avoir le fichier .git). Lorsque vous cliquez, cela vous ouvrira une fenêtre qui vous demandera **le chemin du repository sur votre pc**.
+- `Add existing repository` : **Ajoutez un repository git déjà présent localement sur votre pc** (il doit avoir le fichier .git). Lorsque vous cliquez, cela vous ouvrira une fenêtre qui vous demandera **le chemin du repository sur votre pc**.
 
 ## gitignore
 
@@ -36,7 +36,7 @@ Pour créer un branche depuis Github Desktop, cliquer sur `Current branch`. Cela
 
 Depuis ce menu, cliquez sur `New branch` pour créer un nouvelle branche. Cela vous ouvrira une fenêtre qui vous demandera **le nom de votre nouvelle branche**.
 
-*Remarque : celui-ci ne doit pas être le même qu'une autre branche !*
+_Remarque : celui-ci ne doit pas être le même qu'une autre branche !_
 
 Il vous demandera aussi, si vous n'êtes pas sur la branche `main`, **depuis quel branche vous voulez créer la nouvelle**.
 
@@ -46,7 +46,7 @@ N'oubliez pas une fois la branche créée de cliquez sur `Publish Branch`, sinon
 
 Si vous faites un clic droit sur une des branches depuis le menu de navigation de branches, vous pourrez renommer une branche ou en supprimer une.
 
-*Remarque : si vous le faites, n'hésiter pas à recloner votre projet et à demander à vos collaborateurs de le faire aussi. Sinon vous risquez de vous retrouver avec des branches fantômes.*
+_Remarque : si vous le faites, n'hésiter pas à recloner votre projet et à demander à vos collaborateurs de le faire aussi. Sinon vous risquez de vous retrouver avec des branches fantômes._
 
 Pour recloner un projet, supprimer le dossier de votre projet local puis aller sur Github Desktop et cliquer sur `Clone Again`.
 
@@ -91,10 +91,12 @@ Créer un projet sur Github Desktop, appeler le "First-Project" vous pouvez mett
 
 Créer une branche qui vous nommerez "develop"
 
-### Question 3 :  Faire un commit
+### Question 3 : Faire un commit
 
 Dans la branche develop, créer un fichier texte avec n'importe quel texte dessus. Puis appeler votre commit "Create a text file" puis commiter !
 
 ### Question 4 : Push le commit
 
 Enfin n'oubliez pas de push !
+
+_Auteur : Sofia DA SILVA RIBEIRO._

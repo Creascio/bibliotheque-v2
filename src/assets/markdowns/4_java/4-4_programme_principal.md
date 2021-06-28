@@ -38,7 +38,7 @@ int tab[] = new int[10]
 
 On peut afficher des **chaînes de caractères** dans la console via la commande `print()` ou `println()`
 
-*Remarque : la deuxième est la plus courante et permet de sauter une ligne dans l'affichage après avoir afficher le contenu.*
+_Remarque : la deuxième est la plus courante et permet de sauter une ligne dans l'affichage après avoir afficher le contenu._
 
 Voici un exemple :
 
@@ -74,9 +74,9 @@ L'utilisateur doit pouvoir produire le message suivant : `Je m'appelle [nom_util
 
 On doit pouvoir débiter et créditer le compte. Le débit ne peut se faire que si la somme souhaitée est présente sur le compte. L'action de débiter ou créditer doit produire des messages de réussite ou d'erreur comme suit :
 
-+ Pour le crédit : `Compte de [nom_utilisateur] crédité de [somme] euros !`
-+ Pour le débit (succès) : `Compte de [nom_utilisateur] débité de [somme] euros !`
-+ Pour le débit (échec) : `Erreur : Impossible de débiter le compte de [nom_utilisateur] de [somme] euros, solde insuffisant :(`
+- Pour le crédit : `Compte de [nom_utilisateur] crédité de [somme] euros !`
+- Pour le débit (succès) : `Compte de [nom_utilisateur] débité de [somme] euros !`
+- Pour le débit (échec) : `Erreur : Impossible de débiter le compte de [nom_utilisateur] de [somme] euros, solde insuffisant :(`
 
 1. Identifiez les **objets** à implémenter et créez en conséquence les **classes** nécessaires. Identifiez ensuite les **attributs** de ces objets et implémentez les dans vos classes. Vous créerez également les **constructeurs**, **getters**, **setters** et autres méthodes nécessaires à la manipulation de vos objets.
 
@@ -111,3 +111,5 @@ Développez un **programme principal** permettant de produire ce résultat :
 `Je m'appelle Tutu et voici mon chien Dudu !`
 
 **Attention !** Votre programme ne doit contenir qu'**un seul appel à la console** (un seul `System.out.print()`) !
+
+_Auteur : Léo SALLARD._

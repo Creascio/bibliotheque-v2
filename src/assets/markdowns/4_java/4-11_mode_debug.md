@@ -44,3 +44,5 @@ _Remarque : en parallèle de l'utilisation du mode Debug, une pratique plus simp
 ## Exercices
 
 _Coming soon..._
+
+_Auteur : Léo SALLARD._

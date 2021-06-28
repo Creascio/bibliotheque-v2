@@ -256,3 +256,5 @@ C'est en ça que l'abstraction et l'héritage permettent de produire du code mod
 ## Exercices
 
 _Coming soon..._
+
+_Auteur : Léo SALLARD._

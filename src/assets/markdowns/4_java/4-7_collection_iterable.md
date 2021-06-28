@@ -41,11 +41,11 @@ for (Page page : livre) {
 }
 ```
 
-*Remarque : on part du principe que la classe `Page` contient une méthode s'appelant `ecrire`. Son fonctionnement n'est pas le propos de l'exemple.*
+_Remarque : on part du principe que la classe `Page` contient une méthode s'appelant `ecrire`. Son fonctionnement n'est pas le propos de l'exemple._
 
 Ici on parcourt le tableau de pages `livre`. Pour chaque page contenu dans `livre` on écrit dedans `Je suis une super page !`
 
-*Remarque : la boucle forEach permet de parcourir toutes les structures de données que nous allons voir dans ce cours.*
+_Remarque : la boucle forEach permet de parcourir toutes les structures de données que nous allons voir dans ce cours._
 
 ## List
 
@@ -84,7 +84,7 @@ int[] notes;
 ArrayList<Integer> notes;
 ```
 
-*Remarque : ces objets fonctionnent de manière similaire aux types primitifs mais, tout comme les autres classes, possèdent des méthodes permettant des manipulations plus avancées (se referer à la documentation). Il ne faut cependant pas en abuser et remplacer tout vos types primitifs par des objets si ce n'est pas nécessaire !*
+_Remarque : ces objets fonctionnent de manière similaire aux types primitifs mais, tout comme les autres classes, possèdent des méthodes permettant des manipulations plus avancées (se referer à la documentation). Il ne faut cependant pas en abuser et remplacer tout vos types primitifs par des objets si ce n'est pas nécessaire !_
 
 ### ArrayList
 
@@ -94,16 +94,16 @@ Cela implique qu'il est très **peu couteux d'accéder à un élément** dans la
 
 Voici quelques méthodes de cette classe :
 
-+ `add(Object o)` : ajoute l'objet `o` à la liste si son type correspond
-+ `remove(Object o)` : enlève une occurence de l'objet `o` de la liste s'il s'y trouve au moins 1 fois
-+ `get(index i)` : récupère l'objet de la liste à l'index `i`
-+ `size()` : retourne la taille de la liste (nombre d'éléments dans la liste)
-+ `contains(Object o)` : indique si une occurence de l'objet `o` se trouve dans la liste ou non
-+ `isEmpty()` : indique si la liste est vide (si la taille de la liste est égale à 0)
+- `add(Object o)` : ajoute l'objet `o` à la liste si son type correspond
+- `remove(Object o)` : enlève une occurence de l'objet `o` de la liste s'il s'y trouve au moins 1 fois
+- `get(index i)` : récupère l'objet de la liste à l'index `i`
+- `size()` : retourne la taille de la liste (nombre d'éléments dans la liste)
+- `contains(Object o)` : indique si une occurence de l'objet `o` se trouve dans la liste ou non
+- `isEmpty()` : indique si la liste est vide (si la taille de la liste est égale à 0)
 
-*Remarque : la méthode `get` ne marche pas si la liste contient un objet à l'index donné. Sinon la méthode fait planter le programme donc faite attention !*
+_Remarque : la méthode `get` ne marche pas si la liste contient un objet à l'index donné. Sinon la méthode fait planter le programme donc faite attention !_
 
-*Remarque : il existe d'autres méthodes dans la classe `ArrayList`, celles-ci sont les plus communéments utilisées.*
+_Remarque : il existe d'autres méthodes dans la classe `ArrayList`, celles-ci sont les plus communéments utilisées._
 
 Voici un petit exemple de manipulation d'une `ArrayList` :
 
@@ -124,15 +124,15 @@ if (livre.isEmpty()) {
 
 La classe `Collections` permet de manipuler des listes et autres stuctures de données similaires (donc des collections), voici une liste non exhaustive de ses fonctionnalités :
 
-+ `sort(list)` : tri le contenu de la liste par **ordre croissant**
-+ `shuffle(list)` : mélange le contenu de la liste (change l'ordre des éléments de manière aléatoire)
-+ `max(collection)` : retourne la plus grande valeur de la collection
-+ `min(collection)` : retourne la plus petite valeur de la collection
-+ `addAll(collection, elements)` : permet d'ajouter `elements` à la collection, `elements` peut être un tableau ou bien les éléments listés un par un
+- `sort(list)` : tri le contenu de la liste par **ordre croissant**
+- `shuffle(list)` : mélange le contenu de la liste (change l'ordre des éléments de manière aléatoire)
+- `max(collection)` : retourne la plus grande valeur de la collection
+- `min(collection)` : retourne la plus petite valeur de la collection
+- `addAll(collection, elements)` : permet d'ajouter `elements` à la collection, `elements` peut être un tableau ou bien les éléments listés un par un
 
-*Remarque : il existe beaucoup d'autres méthodes plus situationnelles dans la classe `Collections`.*
+_Remarque : il existe beaucoup d'autres méthodes plus situationnelles dans la classe `Collections`._
 
-*Remarque : la plupart des méthodes de `Collections` se basent sur la comparaison des objets contenus pour fonctionner. Cette comparaison marche très bien et automatiquement pour des variables de type primitif mais pas pour des types complexes.*
+_Remarque : la plupart des méthodes de `Collections` se basent sur la comparaison des objets contenus pour fonctionner. Cette comparaison marche très bien et automatiquement pour des variables de type primitif mais pas pour des types complexes._
 
 ### LinkedList
 
@@ -148,14 +148,14 @@ List<Personne> fileAttente = new LinkedList<>();
 
 En plus des méthodes que l'on retrouve dans les autres implémentations de `List` comme `ArrayList`, la `LinkedList` propose les fonctionnalitées suivantes :
 
-+ `addFirst(Object o)` : ajoute l'objet `o` au **début** de la liste
-+ `addLast(Object o)` : ajoute l'objet `o` à la **fin** de la liste
-+ `removeFirst()` : retire le **premier** élément de la liste
-+ `removeLast()` : retite le **dernier** élément de la liste
-+ `getFirst()` : retourne le **premier** élément de la liste
-+ `getLast()` : retourne le **dernier** élément de la liste
+- `addFirst(Object o)` : ajoute l'objet `o` au **début** de la liste
+- `addLast(Object o)` : ajoute l'objet `o` à la **fin** de la liste
+- `removeFirst()` : retire le **premier** élément de la liste
+- `removeLast()` : retite le **dernier** élément de la liste
+- `getFirst()` : retourne le **premier** élément de la liste
+- `getLast()` : retourne le **dernier** élément de la liste
 
-*Remarque : il existe d'autres implémentations de List mais nous ne les verrons pas ici.*
+_Remarque : il existe d'autres implémentations de List mais nous ne les verrons pas ici._
 
 ## Queue
 
@@ -165,8 +165,8 @@ Elle n'offre aucune fonctionnalité particulière par rapport aux listes mais ce
 
 Ses méthodes d'usages sont les suivantes :
 
-+ `push(Objet o)` : ajoute l'objet `o` au début de la file
-+ `pop()` : retire le premier élément de la file
+- `push(Objet o)` : ajoute l'objet `o` au début de la file
+- `pop()` : retire le premier élément de la file
 
 Voici un exemple :
 
@@ -198,7 +198,7 @@ fileAttente.pop();
 
 La `PriorityQueue` est une file de donnée dont l'ajout de donnée provoque un tri automatique. La PriorityQueue détecte un élément de comparaison entre les objets qui la composent et les trie. Autrement elle ne possède aucune fonctionnalité particulière supplémentaire.
 
-*Remarque : Il existe d'autres implémentations de Queue mais nous ne les verrons pas ici.*
+_Remarque : Il existe d'autres implémentations de Queue mais nous ne les verrons pas ici._
 
 ## Set
 
@@ -208,7 +208,7 @@ On ne peut pas récupérer un élément précis dans un `Set`, seulement **ajout
 
 Un `Set` peut dont être utile dans les cas où l'on souhaite stocker des informations en interdisant les doublons.
 
-*Remarque : les Set sont des structures particulières et rarement utile, à utiliser avec précaution.*
+_Remarque : les Set sont des structures particulières et rarement utile, à utiliser avec précaution._
 
 ## Exercices
 
@@ -230,3 +230,5 @@ On doit pouvoir générer pour chaque chambre le message suivant : `Chambre n°[
 `Chambre n°2 - Etage n°1 - Clients (vide)`
 
 `Chambre n°3 - Etage n°2 - Clients (Titi Tata Tutu)`
+
+_Auteur : Léo SALLARD._

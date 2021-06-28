@@ -110,3 +110,5 @@ Si l'on rajoutait de nouveaux types d'animaux comme un `Oiseau`, cette nouvelle 
 ## Exercices
 
 _Coming soon..._
+
+_Auteur : Léo SALLARD._

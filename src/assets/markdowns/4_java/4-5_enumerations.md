@@ -71,16 +71,18 @@ Dans l'exemple du dessus, on associe à chaque couleur un `symbole` représenté
 
 Si un Enum est paramétré alors on créé un **constructeur privé** capable d'instancier toutes ses constantes et éventuellement des **getters et des setters**.
 
-*Remarque : le constructeur n'est utile que pour paramétrer les constantes existantes ou pour ajouter de nouvelles constantes durant le programme (ici de nouvelles couleurs), on n'a pas besoin d'instancier les constantes d'un Enum avant emploi car ce ne sont pas des objets !*
+_Remarque : le constructeur n'est utile que pour paramétrer les constantes existantes ou pour ajouter de nouvelles constantes durant le programme (ici de nouvelles couleurs), on n'a pas besoin d'instancier les constantes d'un Enum avant emploi car ce ne sont pas des objets !_
 
 ## Méthodes
 
 Les méthodes de la classe `Enum` sont les suivantes :
 
-+ `values()` : renvoie toutes les constantes de l'Enum sous forme de tableau
-+ `ordinal()` : renvoie l'index de la constante appelante dans la liste de constantes
-+ `valueOf(String)` : retourne la constante correspondante à la chaine de caractère si la constante du même nom existe dans l'Enum
+- `values()` : renvoie toutes les constantes de l'Enum sous forme de tableau
+- `ordinal()` : renvoie l'index de la constante appelante dans la liste de constantes
+- `valueOf(String)` : retourne la constante correspondante à la chaine de caractère si la constante du même nom existe dans l'Enum
 
 ## Exercices
 
-*Coming soon...*
+_Coming soon..._
+
+_Auteur : Léo SALLARD._

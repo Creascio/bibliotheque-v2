@@ -31,3 +31,5 @@ Il est très important de **communiquer un maximum** avec les autres Helpers sur
 Bien évidemment le rôle de Helper n'attribut **aucune autorité particulière sur le serveur Discord ou ailleurs**, tous les membres de Creascio sont sur un pied d'égalité.
 
 En esperant que tout cela vous inspire !
+
+_Auteur : Léo SALLARD, Sofia DA SILVA RIBEIRO._

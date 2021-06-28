@@ -79,4 +79,6 @@ Un tableau comme son nom l'indique est une suite d'emplacements. Pour naviguer d
 
 ## Exercices
 
-*Coming soon...*
+_Coming soon..._
+
+_Auteur : Sofia DA SILVA RIBEIRO._

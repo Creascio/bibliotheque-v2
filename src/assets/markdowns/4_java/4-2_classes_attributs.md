@@ -43,14 +43,14 @@ Ils existent en Java comme dans les autres langages deux catégories de type de 
 
 Les types primitifs sont les suivants :
 
-+ `int, byte, short, long` : pour stocker des **nombres entiers**
-+ `float, double` : pour stocker des **nombres à virgule**
-+ `char` : pour stocker des **caractères** (lettres, chiffres, symboles, etc.)
-+ `boolean` : pour stocker une information booléenne c'est à dire qui ne peut prendre que **deux valeurs** (ex : vrai ou faux, 0 ou 1)
+- `int, byte, short, long` : pour stocker des **nombres entiers**
+- `float, double` : pour stocker des **nombres à virgule**
+- `char` : pour stocker des **caractères** (lettres, chiffres, symboles, etc.)
+- `boolean` : pour stocker une information booléenne c'est à dire qui ne peut prendre que **deux valeurs** (ex : vrai ou faux, 0 ou 1)
 
-*Remarque : les différents types permettants de stocker des nombres entier ou à virgule ne varie que par la taille de l'emplacement mémoire qui leur est attribué. Cela change la valeur maximale ou minimale que la variable peut prendre.*
+_Remarque : les différents types permettants de stocker des nombres entier ou à virgule ne varie que par la taille de l'emplacement mémoire qui leur est attribué. Cela change la valeur maximale ou minimale que la variable peut prendre._
 
-*Remarque : pour les nombres entier le `int` est le type le plus courant, pour les nombres à virgule c'est le `float`*
+_Remarque : pour les nombres entier le `int` est le type le plus courant, pour les nombres à virgule c'est le `float`_
 
 Les types complexes sont des types composés eux même d'autres types comme par exemple `String` ou notre propre type `Toto`.
 
@@ -73,7 +73,7 @@ Ces tableaux peuvent stocker des objets d'un type donné dans des **cases mémoi
 
 Un tableau à une taille **non dynamique**, on peut effectuer des actions simples dessus comme **la récupération, l'ajout ou le retrait** d'éléments.
 
-*Remarque : il existe de nombreuses autres actions plus complexes sur les tableaux mais nous en parlerons plus tard.*
+_Remarque : il existe de nombreuses autres actions plus complexes sur les tableaux mais nous en parlerons plus tard._
 
 **Exemple** :
 
@@ -88,9 +88,9 @@ public class Toto {
 
 Il existe plusieurs niveau de visibilité pour les classes, les attributs ou bien encore les méthodes :
 
-+ `public` : visible et accessible par **tout le reste du programme**.
-+ `private` : visible et accessible uniquement dans la **classe**.
-+ `protected` : visible et accessible uniquement dans le **package**.
+- `public` : visible et accessible par **tout le reste du programme**.
+- `private` : visible et accessible uniquement dans la **classe**.
+- `protected` : visible et accessible uniquement dans le **package**.
 
 Une bonne utilisation de la visibilité serait la suivante :
 
@@ -108,16 +108,16 @@ Les attributs `nom` et `age` sont en `private` car la valeur de ces attributs ne
 
 L'attribut `estUnIdiot` est en public, la valeur de ce booléen peut être modifié n'importe où dans le code également.
 
-*Remarque : dans la grande majorité du temps les attributs d'objets sont en `private` pour maintenir la sécurité du code, on appelle ça l'encapsulation de donnée.*
+_Remarque : dans la grande majorité du temps les attributs d'objets sont en `private` pour maintenir la sécurité du code, on appelle ça l'encapsulation de donnée._
 
-*Remarque : bien que la visibilité `protected` existe, on ne l'utilise quasiment jamais car il est rare de créer une situation où elle serait utile.*
+_Remarque : bien que la visibilité `protected` existe, on ne l'utilise quasiment jamais car il est rare de créer une situation où elle serait utile._
 
 ## Propriétés
 
 Il existe plusieurs propriétés pour les attributs :
 
-+ **static** : la valeur de l'attribut est **commune à toutes les instances de la classe**.
-+ **final** : la valeur de l'attribut **ne peut pas être modifié après la première instanciation**.
+- **static** : la valeur de l'attribut est **commune à toutes les instances de la classe**.
+- **final** : la valeur de l'attribut **ne peut pas être modifié après la première instanciation**.
 
 Pour reprendre l'exemple au dessus :
 
@@ -145,4 +145,6 @@ Ici l'attribut indique que **pour n'importe quel chien**, son attribut `estMoins
 
 ## Exercices
 
-*Coming soon...*
+_Coming soon..._
+
+_Auteur : Léo SALLARD._

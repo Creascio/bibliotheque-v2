@@ -6,7 +6,7 @@ GitHub est un outil de **gestion de projets** git. C'est une plateforme en ligne
 
 Il propose de nombreux autres outils qui facilitent la **conception** et la **gestion de projet**.
 
-*Remarque : il existe d'autres plateformes du même genre mais nous utiliserons GitHub dans le cadre de ce cours.*
+_Remarque : il existe d'autres plateformes du même genre mais nous utiliserons GitHub dans le cadre de ce cours._
 
 ## Architecture
 
@@ -86,13 +86,13 @@ Cette action est irreversible donc attention !
 
 Créez un repository appelé "Test", mettez en description "Je suis un repository test", mettez le en privé et ajouter un README.
 
-Après avoir cliqué sur ``<> Code`` voici ce que vous devriez avoir comme résultat :
+Après avoir cliqué sur `<> Code` voici ce que vous devriez avoir comme résultat :
 
 <img src="https://cdn.discordapp.com/attachments/822839106001829908/828643996434956328/unknown.png" align="center"/>
 
-### Question 2 :  Faire un commit
+### Question 2 : Faire un commit
 
-Modifiez le contenu de votre README : "Premier projet git, c'est beau !" (N'oubliez pas de commit !)*
+Modifiez le contenu de votre README : "Premier projet git, c'est beau !" (N'oubliez pas de commit !)\*
 Vous verrez son aperçu changer en revenant à la racine de votre branche.
 
 ### Question 3 : Ajouter un collaborator
@@ -102,3 +102,5 @@ Invitez `Shiropetite` dans votre repository.
 ### Question 4 : Supprimer votre repository
 
 Ce repository n'est pas très utile avec juste un README. Nous allons donc le supprimer.
+
+_Auteur : Sofia DA SILVA RIBEIRO._

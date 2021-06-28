@@ -327,3 +327,5 @@ Pour donner un exemple de comment se déroule `multiplicationTest2`, pour la fam
 ## Exercices
 
 _Coming soon..._
+
+_Auteur : Léo SALLARD._

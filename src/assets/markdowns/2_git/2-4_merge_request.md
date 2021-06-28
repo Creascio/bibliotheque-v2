@@ -16,12 +16,14 @@ Un merge peut entraîner des **conflits sur la branche qui reçoit les modificat
 
 En fonction du type de conflits, Github Desktop peut proposer de prendre en charge la gestion du conflit en proposant d'utiliser **Visual Studio Code** (un éditeur évolué de Microsoft). L'éditeur vous permet alors de choisir entre :
 
-+ garder uniquement les modifications actuelles, c'est à dire l'état du fichier **avant merge**
-+ garder uniquement les modifications entrantes, c'est à dire **remplacer le contenu** du fichier
-+ garder toutes les modifications, l'éditeur va tenter de **fusionner les deux états** du fichier.
+- garder uniquement les modifications actuelles, c'est à dire l'état du fichier **avant merge**
+- garder uniquement les modifications entrantes, c'est à dire **remplacer le contenu** du fichier
+- garder toutes les modifications, l'éditeur va tenter de **fusionner les deux états** du fichier.
 
-*Remarque : les conflits restent très rare vous n'avez pas a trop vous inquietez mais il faut savoir quoi faire quand on tombe dessus.*
+_Remarque : les conflits restent très rare vous n'avez pas a trop vous inquietez mais il faut savoir quoi faire quand on tombe dessus._
 
 ## Exercices
 
-*Coming soon...*
+_Coming soon..._
+
+_Auteur : Léo SALLARD._

@@ -112,3 +112,5 @@ On choisira l'interface pour décrire **les comportements abstraits** d'une cat�
 ## Exercices
 
 _Coming soon..._
+
+_Auteur : Léo SALLARD._

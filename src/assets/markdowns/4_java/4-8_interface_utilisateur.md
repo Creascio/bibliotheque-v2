@@ -186,3 +186,5 @@ _Remarque : bien qu'on ne puisse pas écrire dans un fichier avec un Scanner il 
 ## Exercices
 
 _Coming soon..._
+
+_Auteur : Léo SALLARD._

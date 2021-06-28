@@ -20,7 +20,7 @@ public static int addition(int premierNombre, int deuxiemeNombre){
 
 La méthode est `public`, elle est donc **visible par tout notre code**, elle est également `static` donc elle peut être appelée **sans l'aide d'un objet**.
 
-*Remarque : nous reviendrons sur la façon d'appeler une méthode un peu plus tard.*
+_Remarque : nous reviendrons sur la façon d'appeler une méthode un peu plus tard._
 
 Elle s'appelle `addition` et prend en paramètre d'entrée deux nombres de type `int` : `premierNombre` et `deuxiemeNombre`.
 
@@ -52,7 +52,7 @@ Ici le constructeur de `Chien` nous permet d'attribuer des valeurs à l'`age` et
 
 Le `this` fait référence à **l'objet courant**.
 
-*Remarque : une classe peut contenir plusieurs constructeurs tant que ceux ci ne créé pas des objets similaires, c'est à dire qu'ils ne prennent pas les mêmes paramètres d'entrées. Cela permet une plus versatilité des objets.*
+_Remarque : une classe peut contenir plusieurs constructeurs tant que ceux ci ne créé pas des objets similaires, c'est à dire qu'ils ne prennent pas les mêmes paramètres d'entrées. Cela permet une plus versatilité des objets._
 
 ### Objet courant
 
@@ -60,7 +60,7 @@ Dans le contexte d'une méthode Java, l'objet courant est **un objet du type de 
 
 L'objet courant fait référence à **l'objet qui a appelé la méthode** ce qui nous permet d'accéder aux attributs de cet objet ou bien encore aux méthodes de la classe de cet objet.
 
-*Remarque : dans le cadre du constructeur, `this` fait référence à l'objet qu'on est en train de créer*
+_Remarque : dans le cadre du constructeur, `this` fait référence à l'objet qu'on est en train de créer_
 
 C'est une notion assez abstraite alors voici un exemple :
 
@@ -88,7 +88,7 @@ public class Chien {
 }
 ```
 
-*Remarque : l'exemple ci dessus sert a montrer la capacité de `this` à accéder a des attributs tout comme des méthodes. Dans les faits faire deux constructeurs ici n'est pas très utile.*
+_Remarque : l'exemple ci dessus sert a montrer la capacité de `this` à accéder a des attributs tout comme des méthodes. Dans les faits faire deux constructeurs ici n'est pas très utile._
 
 ## Getter et Setter
 
@@ -117,13 +117,13 @@ public class Chien {
 }
 ```
 
-*Remarque : Il est possible de générer automatiquement le constructeur, les getters et les setters sur la plupart des IDE modernes.*
+_Remarque : Il est possible de générer automatiquement le constructeur, les getters et les setters sur la plupart des IDE modernes._
 
 ## ToString
 
 La méthode `toString` est par convention la méthode que l'on utilise pour **afficher les informations d'un objet**.
 
-*Remarque : par convention la méthode `toString` ne permet pas d'afficher directement le message, seulement de le créer*
+_Remarque : par convention la méthode `toString` ne permet pas d'afficher directement le message, seulement de le créer_
 
 Elle se construit généralement de cette façon :
 
@@ -142,7 +142,7 @@ La concaténation est une propriété de la chaîne de caractère à pouvoir con
 
 Pour cela on utilise le symbole `+`.
 
-*Remarque : le symbole `+` ici n'a pas le même sens que le `+` de l'addition. C'est le cas d'autres symboles en Java ou dans d'autres langages. Leur sens dépend du contexte.*
+_Remarque : le symbole `+` ici n'a pas le même sens que le `+` de l'addition. C'est le cas d'autres symboles en Java ou dans d'autres langages. Leur sens dépend du contexte._
 
 Voici un exemple :
 
@@ -154,4 +154,6 @@ On obtient par exemple : `Bonjour je m'appelle Toto et j'ai 12 ans !`
 
 ## Exercices
 
-*Coming soon...*
+_Coming soon..._
+
+_Auteur : Léo SALLARD._

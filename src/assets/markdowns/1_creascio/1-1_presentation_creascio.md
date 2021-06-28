@@ -53,3 +53,5 @@ En tant que nouvel arrivant, nous t'invitons a remplir ce petit questionnaire : 
 _Remarque : Il est aussi primordial de compléter le cours [Git](https://creascio.github.io/bibliotheque-v2/#/git) avant de commencer votre apprentissage !_
 
 Bravo d'avoir tout lu, vous faites maintenant parti de Creascio !
+
+_Auteur : Léo SALLARD, Sofia DA SILVA RIBEIRO._
