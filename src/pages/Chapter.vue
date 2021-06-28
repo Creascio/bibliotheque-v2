@@ -1,9 +1,14 @@
 <template>
   <q-page class="markdown">
-    <navigation-bar :title="chapterName" />
+    <navigation-bar :title="chapterName" class=""/>
     <div class="row justify-center">
+      <q-breadcrumbs class="q-pt-md q-pl-md col-md-8 col-xs-12">
+        <q-breadcrumbs-el label="accueil" />
+        <q-breadcrumbs-el :label="courseName.split('-').join(' ')" />
+        <q-breadcrumbs-el :label="chapterName.split('-').join(' ')" />
+      </q-breadcrumbs>
       <q-markdown
-        class="col-xs-12 col-md-8 q-pa-md q-ma-md bg-grey-9 text-white"
+        class="q-pa-md q-ma-md col-md-8 col-xs-12 bg-grey-9 text-white"
         :src="chapter.markdown"
       />
     </div>

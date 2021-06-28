@@ -2,8 +2,12 @@
   <q-page>
     <navigation-bar :title="course" />
     <div class="row justify-center">
+      <q-breadcrumbs class="q-pt-md q-pl-md col-md-8 col-xs-12">
+        <q-breadcrumbs-el label="accueil" />
+        <q-breadcrumbs-el :label="course.split('-').join(' ')" />
+      </q-breadcrumbs>
       <list-display
-        listClass="q-pa-md q-gutter-sm col-8"
+        listClass="q-pa-md q-gutter-sm col-md-8 col-xs-12"
         itemClass="bg-grey-9 text-h6 text-white"
         :content="chapters"
         :redirection="course + '/'"
