@@ -31,7 +31,7 @@
               class="col-4"
             />
             <div class="col-7 text-justify">
-              Vous avez une idée de fonctionnalité ? de design ? Vous avez repérez un bug ou une faute de français ?
+              Vous avez une idée de fonctionnalité ? de design ? Vous avez repéré un bug ou une faute de français ?
               <div class="row q-pt-sm">
                 <q-space />
                 <a
