@@ -7,27 +7,27 @@ assignees: ''
 
 ---
 
-**Décrivez le bug**
+**Décrire le bug**
 
 Faites un description du bug que vous avez rencontré. 
 Un bug peut être n'importe quoi qui vous parait anormal sur le site. Cela peut être un élément de la page qui ne réagit pas, qui apparait, qui disparait, qui parait mal placé, etc.
 
-Exemple : Lorsque j'appuie sur tel bouton, rien ne se passe.
+*Exemple* : Lorsque j'appuie sur tel bouton, rien ne se passe.
 
-Ecrire ici :
+*Ecrire ici* :
 
 ---
 
-**Pour le reproduire**
+**Reproduire le bug**
 
 Décrivez les étapes permettant de reproduire le bug en question.
 
-Exemple :
+*Exemple* :
 1. Aller à telle page
 2. Cliquer sur tel bouton
 3. L'erreur apparait
 
-Ecrire ici :
+*Ecrire ici* :
 
 ---
 
@@ -35,9 +35,9 @@ Ecrire ici :
 
 Indiquez le comportement que vous attendiez à la place du bug.
 
-Exemple : Je m'attendais à ce que le bouton me renvoie sur telle page.
+*Exemple* : Je m'attendais à ce que le bouton me renvoie sur telle page.
 
-Ecrire ici :
+*Ecrire ici* :
 
 ---
 
@@ -54,7 +54,7 @@ Si possible, ajouter des screenshots pour montrer le bug ou ses conséquences.
  - Système d'exploitation: [IOS, Android, etc]
  - Navigateur [Chrome, Safari, etc.]
 
-Image(s) ici :
+*Image(s) ici* :
 
 ---
 
@@ -62,4 +62,4 @@ Image(s) ici :
 
 Indiquer ici, si besoin, toute autre information sur le bug ou sur son contexte.
 
-Ecrire ici :
+*Ecrire ici* :
