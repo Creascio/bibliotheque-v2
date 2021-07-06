@@ -1,9 +1,9 @@
 <template>
   <q-page>
-    <navigation-bar :title="course" />
-    <div class="row justify-center">
+    <navigation-bar :title="course" class="navigation" />
+    <div class="row justify-center" style="padding-top: 48px">
       <q-breadcrumbs class="q-pt-md q-pl-md col-md-8 col-xs-12">
-        <q-breadcrumbs-el label="accueil" />
+        <q-breadcrumbs-el label="accueil" to="/" />
         <q-breadcrumbs-el :label="course.split('-').join(' ')" />
       </q-breadcrumbs>
       <list-display
@@ -25,25 +25,34 @@ import NavigationBar from "src/components/NavigationBar.vue";
 export default defineComponent({
   components: {
     ListDisplay,
-    NavigationBar,
+    NavigationBar
   },
   props: {
     courseName: {
       type: String,
-      required: true,
-    },
+      required: true
+    }
   },
   setup(props) {
     const course = courses.find(
-      (course) =>
+      course =>
         course.title.toLowerCase().replaceAll(" ", "-") === props.courseName
     );
     return {
       course: props.courseName,
-      chapters: course.chapters,
+      chapters: course.chapters
     };
-  },
+  }
 });
 </script>
+<style>
+.navigation {
+  position: fixed;
+  width: 100%;
+  height: 48px;
+  z-index: 99;
+  border-bottom: solid 3px grey;
+}
+</style>
 
 

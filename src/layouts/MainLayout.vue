@@ -1,6 +1,6 @@
 <template >
   <q-layout view="lHh Lpr lff">
-    <q-header elevated>
+    <q-header>
       <q-toolbar class="bg-primary row justify-between" style="height: 55px">
         <div>
           <q-btn to="/" no-caps flat dense class="text-h6 text-white">
@@ -35,7 +35,6 @@
               <div class="row q-pt-sm">
                 <q-space />
                 <a
-                  style="text-decoration: none"
                   target="_blank"
                   href="https://github.com/Creascio/bibliotheque-v2/issues/new/choose"
                 >
@@ -52,14 +51,11 @@
         round
         color="primary"
         icon="far fa-question-circle"
-        to="creascio/présentation-de-creascio"
+        to="/creascio/présentation-de-creascio"
       />
-      <q-btn
-        round
-        color="primary"
-        icon="fab fa-discord"
-        to="https://discord.gg/TSjV4jH3Dq"
-      />
+      <a href="https://discord.gg/TSjV4jH3Dq" target="_blank">
+        <q-btn round color="primary" icon="fab fa-discord" />
+      </a>
     </q-footer>
   </q-layout>
 </template>
@@ -82,6 +78,7 @@ export default defineComponent({
   position: fixed;
   bottom: 20px;
   right: 20px;
+  z-index: 9999;
 }
 </style>
 

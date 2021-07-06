@@ -1,3 +1,7 @@
 // app global css in SCSS form
 
-@import './markdown.scss'
+@import "./markdown.scss";
+
+a {
+  text-decoration: none;
+}

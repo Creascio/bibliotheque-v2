@@ -1,15 +1,7 @@
 <template>
   <div class="bg-grey-9 row justify-between items-center">
-    <q-btn
-      @click="goBack()"
-      icon="arrow_back_ios"
-      size="md"
-      flat
-      class="q-mx-sm"
-    />
-    <div class="text-h6 q-py-sm text-center title">
-      {{ title.split("-").join(" ") }}
-    </div>
+    <q-btn @click="goBack()" icon="arrow_back_ios" size="md" flat class="q-mx-sm" />
+    <div class="text-h6 q-py-sm text-center title">{{ title.split("-").join(" ") }}</div>
     <q-btn size="md" flat class="q-mx-sm" />
   </div>
 </template>
@@ -21,18 +13,18 @@ export default defineComponent({
   props: {
     title: {
       type: String,
-      required: true,
-    },
+      required: true
+    }
   },
   methods: {
     goBack() {
       this.$router.back();
-    },
-  },
+    }
+  }
 });
 </script>
 
-<style scoped>
+<style>
 .title {
   white-space: nowrap;
   overflow: hidden;
