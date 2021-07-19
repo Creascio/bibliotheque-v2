@@ -38,28 +38,28 @@ On appelle ces types des **types primitifs**. Ce sont les types les plus basique
 - Les types entiers : permettent de stocker un **nombre entier**.
   Cette famille est composée de : **int**, **byte**, **short** et **long** (**int** est le plus courant).
 
-  ```
-    int quantiteDeFarine = 100
-  ```
+```
+  int quantiteDeFarine = 100
+```
 
 - Les types flottants : permettent de stocker un **nombre à virgule**.
   Cette famille est composée de : **float** et **double** (**float** est le plus courant).
 
-  ```
-    float poidDuLivre = 0.5
-  ```
+```
+  float poidDuLivre = 0.5
+```
 
 - Le type caractère **char** permet de stocker un seul caractère de la table **ASCII**. Cette table contient toutes les lettres, les chiffres et les symboles occidentaux.
 
-  ```
-    char lettre = 'a'
-  ```
+```
+  char lettre = 'a'
+```
 
 - Le type booléen **boolean** permet de stocker une information booléene, c'est-à-dire, une information à **deux** valeurs possibles (Ex : oui ou non, vrai ou faux, 1 ou 0, etc.).
 
-  ```
-    boolean jeSuisUnRobot = true
-  ```
+```
+  boolean jeSuisUnRobot = true
+```
 
 Enfin, dans tout les langages il existe des tableaux. Un tableau est généralement représenter par des crochets comme ceci [ ]. Un tableau ne peut contenir qu'un seul type de donnée soit des **char**, soit des **nombres**,...
 

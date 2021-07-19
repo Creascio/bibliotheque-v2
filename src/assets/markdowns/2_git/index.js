@@ -5,9 +5,9 @@ import merge_request from 'src/assets/markdowns/2_git/2-4_merge_request.md'
 import pull_request from 'src/assets/markdowns/2_git/2-5_pull_request.md'
 
 export default {
-  environnement_travail_git,
-  bases_github,
-  bases_github_desktop,
-  merge_request,
-  pull_request
+    environnement_travail_git,
+    bases_github,
+    bases_github_desktop,
+    merge_request,
+    pull_request
 }

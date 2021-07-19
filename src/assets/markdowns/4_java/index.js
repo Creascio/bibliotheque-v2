@@ -16,20 +16,20 @@ import polymorphisme from 'src/assets/markdowns/4_java/4-15_polymorphisme.md'
 import abstraction_interface from 'src/assets/markdowns/4_java/4-16_abstraction_interface.md'
 
 export default {
-  environnement_travail_java,
-classes_attributs,
-methodes,
-programme_principal,
-enumerations,
-bibliotheques,
-collection_iterable,
-interface_utilisateur,
-valeurs_aleatoires,
-dictionnaires,
-mode_debug,
-tests_unitaires,
-gestion_exceptions,
-abstraction_heritage,
-polymorphisme,
-abstraction_interface
+    environnement_travail_java,
+    classes_attributs,
+    methodes,
+    programme_principal,
+    enumerations,
+    bibliotheques,
+    collection_iterable,
+    interface_utilisateur,
+    valeurs_aleatoires,
+    dictionnaires,
+    mode_debug,
+    tests_unitaires,
+    gestion_exceptions,
+    abstraction_heritage,
+    polymorphisme,
+    abstraction_interface
 }
