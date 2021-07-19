@@ -5,9 +5,9 @@ import conditions_booleennes from 'src/assets/markdowns/3_c/3-4_conditions_boole
 import boucles_controle from 'src/assets/markdowns/3_c/3-5_boucles_controle.md'
 
 export default {
-  environnement_travail_c,
-types_primitifs_variables,
-affichage_console,
-conditions_booleennes,
-boucles_controle
+    environnement_travail_c,
+    types_primitifs_variables,
+    affichage_console,
+    conditions_booleennes,
+    boucles_controle
 }
