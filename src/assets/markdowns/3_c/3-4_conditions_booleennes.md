@@ -10,12 +10,12 @@ Pour représenter ces questions dans notre code on utilise des **conditions** lo
 
 Il existe différents symboles permettant de créer des conditions :
 
-+ `==` : est égal à
-+ `>` : est supérieur à
-+ `<` : est inférieur à
-+ `>=` est supérieur ou égal à
-+ `<=` est inférieur ou égal à
-+ `!=` est différent de
+- `==` : est égal à
+- `>` : est supérieur à
+- `<` : est inférieur à
+- `>=` est supérieur ou égal à
+- `<=` est inférieur ou égal à
+- `!=` est différent de
 
 Voici quelques exemples qui ne sont pas encore sous forme de vrai code pour comprendre le sens de ces symboles :
 
@@ -42,7 +42,7 @@ if (condition_a_remplir) {
 // suite du programme ici
 ```
 
-Lorsque l'on compile notre programme, le compilateur, une fois arrivé au `if`, va vérifier si la condition est remplie ou non (vraie ou fausse). 
+Lorsque l'on compile notre programme, le compilateur, une fois arrivé au `if`, va vérifier si la condition est remplie ou non (vraie ou fausse).
 
 Si la condition est remplie on "rentre" dans le bloc de code du `if`, sinon, on passe directement à la ligne juste en dessous du bloc de code, le `if` est ignoré.
 
@@ -124,8 +124,8 @@ _Expliquer que tout reviens a des booléens et que tu peux tester autrement qu'a
 
 Il est possible de combiner plusieurs conditions dans un seul test grâce à différents symboles permettent de **lier** des conditions entre elles :
 
-+ `&&` : signifie **"ET"**, les **deux** conditions liées doivent être vraies pour que le test soit validé.
-+ `||` : signifie **"OU"**, **au moins une** des conditions liées doivent être vraies pour que le test soit validé.
+- `&&` : signifie **"ET"**, les **deux** conditions liées doivent être vraies pour que le test soit validé.
+- `||` : signifie **"OU"**, **au moins une** des conditions liées doivent être vraies pour que le test soit validé.
 
 Voici un exemple :
 
@@ -140,7 +140,7 @@ else if (age >= 25 || argent >= 1000000) {
 
 Enfin il existe un dernier symbole permettant **d'inverser** une condition. La condition sera alors considérée comme validée si elle est fausse :
 
-+ `!` : signifie **"NON"**, la condition doit être fausse pour que le test soit validé.
+- `!` : signifie **"NON"**, la condition doit être fausse pour que le test soit validé.
 
 Le symbole `!` doit être placé **juste avant** la condition à inverser.
 
@@ -226,4 +226,4 @@ _Coming soon..._
 
 _Coming soon..._
 
-_Auteur : Sofia DA SILVA RIBEIRO._
+_Auteur : Sofia DA SILVA RIBEIRO & Léo SALLARD._
