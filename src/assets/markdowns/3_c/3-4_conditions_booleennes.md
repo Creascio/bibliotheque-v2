@@ -253,4 +253,4 @@ L'opérateur ternaire `?` est placé après la condition et est suivi dans l'ord
 
 _Coming soon..._
 
-_Auteur : Sofia DA SILVA RIBEIRO._
+_Auteur : Léo SALLARD, Sofia DA SILVA RIBEIRO._
