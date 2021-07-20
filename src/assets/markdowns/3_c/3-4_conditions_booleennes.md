@@ -24,6 +24,16 @@ la condition `3 > 2` est **vraie**.
 la condition `3 >= 2` est **vraie**.
 La condition `3 != 3` est **fausse**.
 
+## Fonctionnement d'une condition
+
+Grâce aux symboles présentés au dessus il est possible de comparer de différentes manières **tous les types de données primitifs**.
+
+_Remarque : pour les types de données non numérique (ex: char, boolean), certains symboles de comparaison n'ont pas de sens et ne sont donc pas utile comme par exemple le symbole `<` pour comparer deux lettres._
+
+Dans tous les cas, peu importe la **nature** des données comparées, une condition correspond toujours à une **information booléenne** à savoir si la réponse à la question posée par la condition est **vrai** ou **faux**.
+
+Lorsque l'on exécute le code d'une condition, le compilateur renvoie ensuite une **information booléenne** qui varie en fonction du langage du code (1 ou 0, true ou false, etc.)
+
 ## Types de condition
 
 ### if
@@ -113,12 +123,6 @@ En revanche si la `note` vaut 12, le premier test du `if` n'est pas validé et o
 Pour que l'on affiche "coup dur.", il faut que la `note` soit **inférieure ou égale** à 9.
 
 _Remarque : Il est tout a fait possible d'effectuer plus qu'un second test après le `if`. On peut placer une infinité de conditions `else if` après un premier test `if`. On verra cependant à la fin du cours une structure plus optimisée lorsqu'il est nécessaire d'effectuer plus de deux tests._
-
-## Les booléens
-
-_Coming soon..._
-
-_Expliquer que tout reviens a des booléens et que tu peux tester autrement qu'avec des ints._
 
 ## Combinaison de condition
 
@@ -220,7 +224,30 @@ _Remarque : le cas `default` représente le cas standard donc le comportement à
 
 ## Le ternaire
 
-_Coming soon..._
+L'opérateur conditionnel ternaire est un symbole permettant de condenser une expression `if...else` en une seule ligne. Pour cela on utilise le symbole `?`.
+
+Voici un exemple avec et sans l'utilisation d'un ternaire :
+
+```
+boolean majeur = true;
+
+if (majeur) {
+  message = "Vous êtes majeur !";
+}
+else {
+  message = "Vous êtes mineur !";
+}
+```
+
+Et maintenant avec un ternaire :
+
+```
+message = (majeur) ? "Vous êtes majeur !" : "Vous êtes mineur !";
+```
+
+Dans cet exemple, la valeur du booléen `majeur` représente la condition à remplir.
+
+L'opérateur ternaire `?` est placé après la condition et est suivi dans l'ordre par le résultat souhaité si la condition est validée puis le résultat souhaité si la condition est incorrecte séparé par un `:`.
 
 ## Exercices
 
