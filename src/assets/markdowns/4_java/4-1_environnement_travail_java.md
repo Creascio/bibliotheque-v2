@@ -19,7 +19,7 @@ Le JDK est l'ensemble des outils nécessaire à notre machine pour pouvoir **lir
 
 Nous avons choisi Eclipse comme IDE (integrated development environment) pour ce cours mais il en existe d'autres, notamment [IntelliJ](https://www.jetbrains.com/fr-fr/idea/)
 
-## Architecture
+## Architecture d'un projet Java
 
 Pour coder en Java, on créer des **projets** qui sont stockés en tant que **dossier** sur votre PC. Les projets peuvent être arrangés dans ce qu'on appelle une **workspace**.
 
@@ -33,7 +33,7 @@ Le dossier src peut contenir des sous dossiers appelés **packages**. Les packag
 
 Enfin on retrouve les **classes** qui sont le modèle de définition de nos objets comportant des **attributs**, c'est-à-dire des **caractéristiques**, et des **méthodes** qui décrivent le **comportement** des objets.
 
-## Créer un projet
+## Créer un projet Java
 
 Pour créer un projet Java sous Eclipse il faut tout d'abord lancer Eclipse sur une workspace existante ou bien en créer une nouvelle.
 

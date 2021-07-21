@@ -6,7 +6,7 @@ Les méthodes représentent **l'ensemble des comportements d'un objet** ou bien 
 
 Les méthodes sont des fonctions qui font partie du bloc classe tout comme les attributs.
 
-## Composition
+## Composition d'une méthode
 
 Les méthodes sont des **blocs d'instructions composés** d'un **prototype** suivi d'une ou plusieurs lignes de code.
 
@@ -54,7 +54,7 @@ Le `this` fait référence à **l'objet courant**.
 
 _Remarque : une classe peut contenir plusieurs constructeurs tant que ceux ci ne créé pas des objets similaires, c'est à dire qu'ils ne prennent pas les mêmes paramètres d'entrées. Cela permet une plus versatilité des objets._
 
-### Objet courant
+### L'objet courant
 
 Dans le contexte d'une méthode Java, l'objet courant est **un objet du type de la classe dans laquelle on se situe**.
 
@@ -90,7 +90,7 @@ public class Chien {
 
 _Remarque : l'exemple ci dessus sert a montrer la capacité de `this` à accéder a des attributs tout comme des méthodes. Dans les faits faire deux constructeurs ici n'est pas très utile._
 
-## Getter et Setter
+## Les Getters et Setters
 
 Les getters et les setters sont des méthodes standardes de **manipulation d'attributs**.
 
@@ -119,7 +119,7 @@ public class Chien {
 
 _Remarque : Il est possible de générer automatiquement le constructeur, les getters et les setters sur la plupart des IDE modernes._
 
-## ToString
+## La textualisation : toString
 
 La méthode `toString` est par convention la méthode que l'on utilise pour **afficher les informations d'un objet**.
 

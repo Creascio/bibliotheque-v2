@@ -2,25 +2,27 @@
 
 ## Introduction
 
-Le Javascript est un langage de programmation permettant de construire des applications logicielles ou web. C'est un langage proche du script extrêmement polyvalent qui est utilisé dans de nombreux domaines. Il est également la base de nombreux frameworks et autres outils spécialisés. Le but de ce cours est de vous présenter le fonctionnement de ce langage pour pouvoir ensuite l'exploiter dans un contexte d'application web.
+Le Javascript est un langage de programmation permettant de construire des applications **logicielles ou web**. C'est un langage **proche du script** extrêmement **polyvalent** qui est utilisé dans de nombreux domaines. Il est également la base de nombreux **frameworks** et autres outils spécialisés.
 
-## Structure
+Le but de ce cours est de vous présenter le fonctionnement de ce langage pour pouvoir ensuite l'exploiter dans un contexte d'application web.
 
-### Types
+## La structure du Javascript
 
-Le Javascript est un langage faiblement typé. Ils ne sont pas requis pour la manipulation de donnée mais il existe quand même des types de base :
+### Les types de données
 
-- `number` : nombre entier, relatif, etc.
-- `string` : chaîne de caractères
-- `boolean` : information booléenne
-- `null, undefined` : variable vide
-- `symbol`
+Le Javascript est un langage **faiblement typé**. Ils ne sont pas requis pour la manipulation de donnée mais il existe quand même des types de base :
 
-### Variables
++ `number` : nombre entier, relatif, etc.
++ `string` : chaîne de caractères
++ `boolean` : information booléenne
++ `null, undefined` : variable vide
++ `symbol`
 
-Les variables fonctionnent comme dans n'importe quel autre langage de programmation, elles permettent de stocker une information, une valeur, pour pouvoir être traiter. Il y a plusieurs façon d'instancier une variable :
+_Remarque : le type `symbol` n'est plus du tout utilisé, nous n'en parlerons pas plus dans ce cours._
 
-**Exemple** :
+### Les variables
+
+Les variables fonctionnent comme dans n'importe quel autre langage de programmation, elles permettent de **stocker une information**, une valeur, pour pouvoir être traiter. Il y a plusieurs façon d'instancier une variable :
 
 ```js
 var prenom = "titi"; // string
@@ -30,9 +32,13 @@ var sexe = true; // boolean
 const vérité = "Les chats sont mieux que les chiens";
 ```
 
-Il existe de subtiles différences entre les mots clés `var` et `let`, les deux permettent d'instancier des variables et il est préférables d'utiliser `let` la majeure partie du temps. Le but de cet exemple était de présenter les possibilités mais nous n'allons pas nous attarder sur une vraie comparaison.
+Il existe de subtiles différences entre les mots clés `var` et `let`, les deux permettent d'instancier des **variables** et il est préférables d'utiliser `let` la majeure partie du temps.
 
-Le mot clé `const` permet d'instancier une constante, c'est à dire qu'une fois que cette variable se verra attribuer une première fois une valeur, cette valeur ne pourra plus être changée par la suite. Il est très fréquent d'utiliser des constantes en Javascript car on manipule souvent des références mais nous y reviendrons.
+Le but de cet exemple était de présenter les deux possibilités mais nous n'allons pas nous attarder sur une vraie comparaison.
+
+Le mot clé `const` permet d'instancier une **constante**, c'est à dire qu'une fois que cette variable se verra attribuer une première fois une valeur, cette valeur **ne pourra plus être changée par la suite**.
+
+Il est très fréquent d'utiliser des constantes en Javascript car on manipule souvent des **références** de variable mais nous y reviendrons un peu plus tard.
 
 _Remarque : les fins d'instructions n'ont pas besoin d'être représentées en Javascript, le `;` n'est pas obligatoire_
 
@@ -40,11 +46,11 @@ _Remarque : les opérandes entre les données de type number (+, -, /, etc) rest
 
 _Remarque : Il est possible de définir des strings avec les simples `''` ou les doubles cotes `""`. Le contexte web utilise les doubles cotes dans certains contextes et il est donc possibles d'utiliser des simples cotes à l'intérieur de doubles cotes (Ex : machin()="'phrase'")_
 
-### Tableaux
+### Les tableaux
 
 En Javascript les tableaux sont eux aussi non typés et peuvent contenir tous types de valeurs.
 
-**Exemple** :
+Voici un exemple :
 
 ```js
 let membres = ["titi", "toto", "tutu"];
@@ -54,12 +60,12 @@ let premierMembre = membres[0]; // 'titi'
 
 Les tableaux possèdent leur propre logique :
 
-- `length` : un attribut qui indique la taille du tableau c'est à dire le nombre d'éléments qu'il contient
-- `push(element)` : ajoute un élément à la fin du tableau
-- `unshift(element)` : ajoute un element au début du tableau
-- `pop()` : retire le dernier élément du tableau
++ `length` : un attribut qui indique la taille du tableau c'est à dire le nombre d'éléments qu'il contient
++ `push(element)` : ajoute un élément à la fin du tableau
++ `unshift(element)` : ajoute un element au début du tableau
++ `pop()` : retire le dernier élément du tableau
 
-**Exemple** :
+Voici un exemple d'utilisation de ces méthodes :
 
 ```js
 let membres = [];
@@ -69,11 +75,11 @@ let taille = membres.length; // 2
 membres.pop(); // membres = ['toto']
 ```
 
-### Objets
+### Les objets
 
-Les objets Javascript permettent de réunir plusieurs informations ou caractéristiques derrière une seule variable par association clé-valeur. Ils sont décrits par le biais de blocs qui contiennent leurs attributs :
+Les objets Javascript permettent de **réunir plusieurs informations** ou caractéristiques derrière une seule variable par association **clé-valeur**. Ils sont décrits par le biais de blocs qui contiennent leurs attributs :
 
-**Exemple** :
+Voici un exemple :
 
 ```js
 let chat = {
@@ -87,9 +93,11 @@ let ageDuChat = chat["age"]; // 2
 
 _Remarque : il est possible d'utiliser la syntaxe par pointeur ou par crochet pour accéder à la valeur d'un attribut d'un objet. Tout dépend des informations disponibles sur l'objet en fonction du contexte mais la syntaxe par pointeur reste la plus courante._
 
-Les éléments d'un tableau ainsi que les attributs d'un objet sont accédés par référence, c'est à dire que modifier ces éléments ne modifie pas le tableau ou l'objet en lui même. De ce fait les tableaux et les objets sont généralement déclarés comme des constantes :
+Les éléments d'un tableau ainsi que les attributs d'un objet sont accédés par **référence**, c'est à dire que modifier ces éléments ne modifie pas le tableau ou l'objet **en lui même**. 
 
-**Exemple** :
+De ce fait les tableaux et les objets sont généralement déclarés comme des **constantes**.
+
+Cela donne concrétement :
 
 ```js
 const membre = {
@@ -104,15 +112,15 @@ membre.age = 22; // on modifie l'objet
 console.log(membres); // Output : { nom: 'toto', age: 22 }
 ```
 
-## Algoritmie
+## L'algoritmie en Javascript
 
-### Conditions
+### Les conditions
 
-Les instructions `if / else / switch`, les opérateurs `<, >, <=, >=, !=` et `&&, ||` fonctionnent de manières similaires aux autres langages.
+Les instructions `if / else / switch`, les opérateurs `<, >, <=, >=, !=` et les symboles associatifs `&&, ||` fonctionnent de manières similaires aux autres langages.
 
 _Remarque : La comparaison `==` vérifie uniquement la valeur des deux variables, `===` permet de vérifier la valeur et le type des deux variables_
 
-**Exemple** :
+Voici un exemple :
 
 ```js
 let titi = 6;
@@ -122,39 +130,41 @@ console.log(titi == toto); // true
 console.log(titi === toto); // false
 ```
 
-### Boucles de contrôle
+### Les boucles de contrôle
 
 La boucle `while` est présente en Javascript mais pas la boucle `do while`. Il existe plusieurs types de boucles `for` :
 
-- le for "classique"
-- le for...in
-- le for...of
++ le `for` "classique"
++ le `for...in`
++ le `for...of`
 
-**Exemple** :
+Voici un exemple d'utilisation de ces trois boucles :
 
 ```js
 let membres = ['titi', 'toto', 'tutu']
 
 for (let i = 0; i < membres.length; i++) {
-  console.log('Tu es un membre !')
+  console.log('Tu es un super membre !')
 }
 
 for (let i in members) {
-  console.log(members[i] + ' est un mega membre !)
+  console.log(members[i] + ' est un hyper membre !)
 }
 
 for (let member of members) {
-  console.log(member + 'est un giga membre)
+  console.log(member + ' est un ultra membre)
 }
 ```
 
 _Remarque : le for...in n'est quasiment jamais utilisé au profit du for...of._
 
-### Fonctions
+### Les fonctions
 
-Les fonctions en Javascript fonctionnent légerement différement du au contexte sous typé. De plus elles possèdent des propriétés différentes que dans les autres langages mais nous n'aborderons ces propriétés qu'a partir des cours en contexte web.
+Les fonctions en Javascript fonctionnent légerement différement du au contexte sous typé.
 
-**Exemple** :
+De plus elles possèdent des propriétés différentes que dans les autres langages mais nous n'aborderons ces propriétés qu'a partir des cours en contexte Web.
+
+Quelques exemples de construction d'une fonction :
 
 ```js
 function afficherDesValeurs(valeur1, valeur2) {
@@ -172,7 +182,7 @@ console.log(additionner(2, 7)); // Output : 9
 
 _Remarque : la recursivité est possible en Javascript._
 
-### Exceptions
+### Les exceptions
 
 Le bloc `try catch` est présent en Javascript et se construit de cette manière :
 
@@ -184,11 +194,11 @@ try {
 }
 ```
 
-## Classes et méthodes
+## Les classes et les méthodes
 
-Les classes sont des blocs qui permettent de réunir à la fois un modèle de données pour un objet mais aussi des fonctions qui lui sont propres grâce aux méthodes d'instances. Les types de données ainsi créés fonctionnent commes les autres types du Javascript à l'exception de l'instanciation.
+Les classes sont des blocs qui permettent de réunir à la fois un **modèle de données** pour un objet mais aussi des **fonctions qui lui sont propres** grâce aux méthodes d'instances.
 
-**Exemple** :
+Les types de données ainsi créés fonctionnent commes les autres types du Javascript à l'exception de l'instanciation :
 
 ```js
 class Chat {
@@ -211,7 +221,7 @@ chat.miauler(); // 'miaou !'
 const laVerite = Chat.verite(10); // 'Les chats sont 10 fois meilleurs que les chiens :)'
 ```
 
-## Tests unitaires
+## Les tests unitaires
 
 _Coming soon..._
 

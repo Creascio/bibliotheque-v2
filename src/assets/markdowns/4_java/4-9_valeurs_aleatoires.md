@@ -6,7 +6,7 @@ Dans un programme informatique, on peut très souvent être ammené à devoir ut
 
 Il y'a plusieurs façons de générer des valeurs aléatoires en Java. Nous allons en voir deux dans ce cours.
 
-## Random
+## La classe Random
 
 La classe `Random` permet de générer des valeurs aléatoires de **différents types primitifs**.
 
@@ -48,7 +48,7 @@ if (coinFlip) {
 
 _Remarque : il est tout a fait possible d'obtenir la même valeur plusieurs fois d'affilée. Tout est une question de probabilité._
 
-## Math.random
+## La méthode Math.random
 
 La méthode `random()` de la classe `Math` permet de générer une valeur aléatoire **entre 0 et 1**. Le résultat est donc un nombre à virgule
 

@@ -2,17 +2,17 @@
 
 ## Introduction
 
-Les énumerations, ou Enum, permettent de créer une **famille de valeurs possibles pour représenter un concept**.
+Les énumerations, ou `Enum`, permettent de créer une **famille de valeurs possibles pour représenter un concept**.
 
 L'Enum n'est pas une classe et ces valeurs ne sont pas des objets à part entière. Un Enum est **une liste de constantes**.
 
-## Usage
+## Utilisation des enums
 
 On peut se servir des valeurs d'un Enum pour attribuer une valeur à **des attributs ou des variables**.
 
 Les Enums sont utiles lorsque **l'on sait que l'on va avoir des valeurs qui ne vont jamais changer** comme les mois, les jours de la semaine ou encore les couleurs.
 
-## Composition et Utilisation
+## Composition et utilisation
 
 Un Enum contient essentiellement des valeurs possibles :
 
@@ -42,7 +42,7 @@ On voit ici un cas concret d'utilisation d'un Enum et comment accéder à une va
 
 Ici l'Enum est très simple et ne stocke que des valeurs mais il peut être plus complexe.
 
-## Paramétrage
+## Paramétrage d'un enum
 
 Un Enum peut avoir des **attributs**. **Chacune de ses constantes** possède une valeur pour ses attributs. On dit que l'Enum est **paramétré**.
 
@@ -73,7 +73,7 @@ Si un Enum est paramétré alors on créé un **constructeur privé** capable d'
 
 _Remarque : le constructeur n'est utile que pour paramétrer les constantes existantes ou pour ajouter de nouvelles constantes durant le programme (ici de nouvelles couleurs), on n'a pas besoin d'instancier les constantes d'un Enum avant emploi car ce ne sont pas des objets !_
 
-## Méthodes
+## Les méthodes usuelles
 
 Les méthodes de la classe `Enum` sont les suivantes :
 

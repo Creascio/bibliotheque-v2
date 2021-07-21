@@ -8,7 +8,7 @@ Il propose de nombreux autres outils qui facilitent la **conception** et la **ge
 
 _Remarque : il existe d'autres plateformes du même genre mais nous utiliserons GitHub dans le cadre de ce cours._
 
-## Architecture
+## Architecture d'un projet Git
 
 Lorsque vous créez un projet Git, vous créez un **repository**.
 
@@ -31,7 +31,7 @@ technologies avec de lourdes bibliothèques.Un **.gitignore** est un fichier qui
 
 Lorsque vous créez une repository sur Github, il sera totalement vide. (sauf si vous avez créé un README ou un .gitignore)
 
-## Interface repository
+## L'interface d'un repository
 
 Lorsque vous cliquez sur l'un de vos repository ou lorsque vous en créez un, l'interface devrait
 ressembler à ça. (si ce n'est pas le cas cliquer sur **<> Code** dans le menu)
@@ -45,7 +45,7 @@ Depuis cette endroit, vous pouvez ajouter, modifier et supprimer des fichiers ou
 Vous pouvez aussi cloner votre repository afin de l'importer sur votre ordinateur en
 téléchargent un .zip. Pour cela cliquer sur le bouton vert **Code** puis **Download ZIP**
 
-## Paramétrage
+## Le paramétrage d'un repository
 
 Il existe de nombreuses options de personnalisation de votre repository que ce soit pour en filtrer l'accès ou bien le contenu.
 
@@ -65,7 +65,7 @@ vous pouvez changer la visibilité d'un repository.
 
 Un repository publique permet à n'importe qui de voir le code et de le copier sur son ordinateur mais il ne peutpas être modifier. Un repository privé est totalement caché, on ne peux pas le voir ni le changer à mois d'etre un collaborateur.
 
-### Archiver
+### Archiver un repository
 
 Dans **Settings** si vous revenez dans **Options** et que vous scrollez tout en bas,
 vous pouvez archiver un repository.
@@ -73,7 +73,7 @@ vous pouvez archiver un repository.
 Lorsqu'un repository est archiver vous et vos collaborateur ne pouvez plus le modifier mais
 vous avez toujours accès au code en lecture. Cette action est reversible.
 
-### Supprimer
+### Supprimer un repository
 
 Dans **Settings** si vous revenez dans **Options** et que vous scrollez tout en bas,
 vous pouvez supprimer un repository.

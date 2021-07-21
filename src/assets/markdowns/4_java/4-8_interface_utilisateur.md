@@ -6,7 +6,7 @@ Dans tous types de programme et en Java également, il est toujours plus agréab
 
 Dans ce cours nous allons voir comment mettre en place les bases d'une interface utilisateur rudimentaire via la **console Java**. L'interface utilisateur sera donc **uniquement textuelle**, nous ne parlerons pas d'interface plus graphique dans ce cours car le Java n'est pas un langage bien équipé pour cela car ce n'est pas son but.
 
-## Scanner
+## Récupérer des informations : le Scanner
 
 Un `Scanner` en Java est un objet permettant de **récupérer des informations provenant d'un flux**. En Java il existe différents types de flux :
 
@@ -29,7 +29,7 @@ Ici on vient de créer un objet de type `Scanner` s'appelant `sc` sur le flux d'
 
 On peut ensuite récupérer des informations depuis ce `Scanner`. Depuis le flux d'entrée les informations que l'on souhaite recueillir sont les **saisies clavier** de l'utilisateur c'est à dire **ce qu'il écrit dans la console**.
 
-### Saisie et Récuperation
+### Saisie et récuperation d'information
 
 Une saisie clavier se caractérise par **la chaîne de caractère rentrée par l'utilisateur** qui peut ou pas contenir des espaces. La **validation** de cette saisie clavier par l'utilisateur se fait pas l'utilisation de `Enter` (la touche Entrée) du clavier qui appelle la méthode de récupération.
 
@@ -51,7 +51,7 @@ En effet la chaîne `Hello World !` contient des espaces et correspond donc à 3
 
 `Hello`, `World` et enfin `!`
 
-### Méthodes
+### Les méthodes usuelles
 
 Voici différentes méthodes pour récupérer des informations via un `Scanner` :
 
@@ -153,7 +153,7 @@ Un exemple d'utilisation de l'interface du dessus :
 
 _Remarque : le code au dessus est seulement un exemple qui peut et doit être adapté en fonction de la situation._
 
-## Fichier externe
+## Gestion des fichiers externes
 
 Dans cette partie nous allons voir comment utiliser le `Scanner` pour **lire** des données **textuelles** dans un fichier externe `txt`.
 

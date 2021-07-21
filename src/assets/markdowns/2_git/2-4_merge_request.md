@@ -4,7 +4,7 @@
 
 Lors d'un projet en équipe, la possibilité de merge différentes branches de travail est cruciale pour pouvoir **contrôler** que l'apport de **nouvelles fonctionnalités** dans la version principale du projet se fait correctement.
 
-## Merge
+## La fusion de branche : le merge
 
 L'action de merge se fait toujours d'une branche vers une autre, on dit qu'on merge la branche A dans la branche B. Ainsi le contenu de la branche A **va se retrouver dans la branche B** et la branche A peut être supprimé ensuite.
 
@@ -12,7 +12,7 @@ La bonne pratique veut que dans un projet en groupe ou chacun travaillerait sur 
 
 Un merge peut entraîner des **conflits sur la branche qui reçoit les modifications** si les deux branches contenaient un fichier avec une **signature identique** (même nom et extension) et que la branche entrante n'est pas à jour avec la branche recevante.
 
-## Conflits
+## Gestion des conflits
 
 En fonction du type de conflits, Github Desktop peut proposer de prendre en charge la gestion du conflit en proposant d'utiliser **Visual Studio Code** (un éditeur évolué de Microsoft). L'éditeur vous permet alors de choisir entre :
 

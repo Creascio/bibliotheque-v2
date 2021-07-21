@@ -34,7 +34,7 @@ Les tableaux suivent le même comporter et doivent être instancier avant utilis
 int tab[] = new int[10]
 ```
 
-## Affichage console
+## L'affichage console
 
 On peut afficher des **chaînes de caractères** dans la console via la commande `print()` ou `println()`
 

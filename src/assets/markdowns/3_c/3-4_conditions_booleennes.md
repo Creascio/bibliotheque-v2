@@ -36,7 +36,7 @@ Lorsque l'on exécute le code d'une condition, le compilateur renvoie ensuite un
 
 ## Types de condition
 
-### if
+### La condition if
 
 Le condition `if` se traduit en langage littéral par la condition **"SI ALORS"**. Elle se forme par la mot clé `if` suivi d'une **condition booléenne** et enfin par **la ou les instructions de code à executer** si la condition est remplie.
 
@@ -70,7 +70,7 @@ Dans cet exemple, en partant du principe qu'il existe une variable `age` de type
 
 Si la valeur de cette variable `age` est **supérieure ou égale** à 18, la condition du `if` est remplie et on execute son bloc de code. Ici un message sera affiché dans la console.
 
-### else
+### La condition else
 
 La condition `else` se traduit en langage littéral par **"SINON"**. Elle fonctionne de paire avec la condition `if`.
 
@@ -94,7 +94,7 @@ Ici, en fonction de la valeur de la variable `age`, le programme pourra produire
 
 Il est **impossible** de vérifier la condition d'un `if` et de son `else` en même temps.
 
-### else if
+### La condition else if
 
 La condition `else if` se traduit en langage littéral par **"SINON SI"**. C'est une combinaison de la condition `if` et de la condition `else`, on l'utilise lorsque l'on veut effectuer un second test si le premier test du `if` a échoué.
 
@@ -124,7 +124,7 @@ Pour que l'on affiche "coup dur.", il faut que la `note` soit **inférieure ou �
 
 _Remarque : Il est tout a fait possible d'effectuer plus qu'un second test après le `if`. On peut placer une infinité de conditions `else if` après un premier test `if`. On verra cependant à la fin du cours une structure plus optimisée lorsqu'il est nécessaire d'effectuer plus de deux tests._
 
-## Combinaison de condition
+## Combinaison de conditions
 
 Il est possible de combiner plusieurs conditions dans un seul test grâce à différents symboles permettent de **lier** des conditions entre elles :
 
@@ -158,7 +158,7 @@ if (!(age < 10)) {
 
 La condition de l'exemple peut donc se traduire par : "**SI** `age` N'est **PAS** inférieur à 10". Ainsi la condition est validée si la valeur de `age` est supérieure ou égale à 10.
 
-## Le switch
+## La condition switch
 
 Le `switch` est une structure qui permet d'éviter la répétition dans une longue suite de tests. Il permet de remplacer plus efficacement un enchaînement de condition `else if`.
 

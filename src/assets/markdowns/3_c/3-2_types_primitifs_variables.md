@@ -8,7 +8,7 @@ Ces données peuvent être très diverses et sont représentées de manière tou
 
 Dans la plupart des langages, on utilise des **types**, qu'on pourrait décrire comme des **catégories**, pour caractériser les données.
 
-## Variables
+## Les Variables
 
 Les variables sont les éléments de notre code qui vont nous permettre de stocker des informations de manière durables. Une variable possède une donnée ainsi qu'un nom.
 
@@ -24,7 +24,7 @@ Voici quelques exemples:
 
 Ce n'est pas du vrai code juste un exemple pour vous donnez une idée.
 
-## Types
+## Les types de donnée
 
 Les variables possède un type même si c'est parfois implicites.
 

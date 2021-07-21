@@ -6,7 +6,7 @@ Les exceptions font partie intégrante du développement d'un programme, sauf si
 
 Elles indiquent **le type et la provenance d'une erreur** durant l'exécution du programme. Heureusement on peut se prévenir de ces erreurs et les gérer correctement pour ne pas que le programme **plante**.
 
-## Les Exceptions
+## Les Exceptions en Java
 
 Les `Exceptions` sont des classes très simples associée à un type d'erreur, à une cause d'un problème est sera levée lorsque les conditions seront remplies pour. Les exceptions existantes ont des noms évocants l'erreur qu'elle indique.
 
@@ -58,7 +58,7 @@ Ainsi on peut **prévenir les risques** dans notre programme et provoquer des er
 
 On peut également être ammené à créer nos **propres erreurs**.
 
-### Exceptions customisées
+### Les exceptions customisées
 
 Les exceptions customisées sont des classes de la famille `Exception` que l'on aurait codé soit même dans notre programme. Elles suivent les mêmes règles que les autres exceptions.
 

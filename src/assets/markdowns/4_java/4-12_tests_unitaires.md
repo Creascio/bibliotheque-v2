@@ -16,7 +16,7 @@ Généralement on place les Test Case dans **un package de test à part**. On pe
 
 Pour créer un Test Case (sous Eclipse) : `Clic droit > New > JUnit Test Case`
 
-## Utilisation
+## Utilisation des tests
 
 Pour chaque classe que l'on souhaite tester, on créer un Test Case qui va contenir les tests nécessaires à la **couverture** des méthodes de la classe. La **couverture** d'une classe représente **tous les cas de figure possibles** lors de l'appel des méthodes de cette classe.
 
@@ -71,7 +71,7 @@ public class TotoTest {
 
 Lors de l'éxécution de `TotoTest`, la méthode de test `additionTest` va être lancée, pour le moment elle ne fait rien mais nous allons voir maintenant comment construire un test efficace.
 
-## Construction
+## Construction d'un test
 
 Un test unitaire est divisé en trois parties :
 
@@ -242,7 +242,7 @@ public class TotoTest(){
 
 _Remarque : l'exemple ci-dessus essaye de montrer la meilleure pratique de ces annotations, `BeforeAll` est très utile pour initialiser des éléments utiles à plusieurs tests comme des objets. `BeforeEach` (ou `AfterEach`) permet de remettre des éléments dans les mêmes conditions qu'avant un test, comme une réinitialisation._
 
-## Test paramétré
+## Les tests paramétrés
 
 Grâce aux annotations, il est possible de créer des tests paramétrés qui permettent de soumettre **plusieurs valeurs au même test** en une seule fois. Le test va fonctionner alors similairement à une boucle `forEach` qui va éxécuter le **même code pour chaque valeur** donnée en paramètre.
 

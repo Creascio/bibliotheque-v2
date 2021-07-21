@@ -6,13 +6,13 @@ Github Desktop est un outil de bureau en lien avec Github et qui permet la **ges
 
 C'est une interface qui rend ce processus plus **graphique et intuitif** mais elle n'est en aucun cas nécessaire pour manipuler des projets git, une invite de commande suffit pour cela.
 
-## Interface
+## Interface du logiciel
 
 Voici à quoi ressemble l'interface de **Github Desktop**.
 
 <img src="https://cdn.discordapp.com/attachments/822839106001829908/825439994806140998/unknown.png"/>
 
-## Gestion de repository
+## Gestion des repository
 
 A droite, cliquez sur `Current repository`. Cela vous ouvrira un menu qui contient **tout vos repository**. Dans ce menu, cliquez sur le bouton `Add`. (Si vous n'avez jamais fait de projet Git, on vous proposera tout de suite d'ajouter un repository).
 
@@ -24,11 +24,11 @@ Lorsque vous cliquez sur `Add` trois choix s'offrent à vous :
 
 - `Add existing repository` : **Ajoutez un repository git déjà présent localement sur votre pc** (il doit avoir le fichier .git). Lorsque vous cliquez, cela vous ouvrira une fenêtre qui vous demandera **le chemin du repository sur votre pc**.
 
-## gitignore
+## Le gitignore
 
 Un .gitignore est un fichier qui permet au repository **d'ignorer certains types de fichiers** comme de lourdes bibliothèques (par exemple `node-modules`).
 
-## Gestion de branches
+## Gestion des branches
 
 Il est important de créer des branches afin de stocker plusieurs versions d'un même projet.
 
@@ -52,7 +52,7 @@ Pour recloner un projet, supprimer le dossier de votre projet local puis aller s
 
 N'oubliez pas de `Push` vos changements **AVANT** sinon ils seront perdus !
 
-## Commit
+## Modifier le contenu : le commit
 
 Lorsque vous allez effectuer des changements sur vos fichiers, Github Desktop affichera ceci sur la gauche de l'écran :
 
@@ -70,7 +70,7 @@ Vous pouvez aussi ajouter un description. Une fois que vous avez donner un nom �
 
 Un commit est une sauvegarde **uniquement locale à votre pc**.
 
-## Push, Pull, Fetch
+## Le versionning : Push, Pull, Fetch
 
 Le bouton `Fetch origin` permet de **comparer votre version et celle du cloud**, il détecte donc quand vous devez **push** ou **pull**.
 

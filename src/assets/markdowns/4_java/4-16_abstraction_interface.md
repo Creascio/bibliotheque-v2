@@ -8,7 +8,7 @@ On peut établir des **contrats** avec les classes pour qu'elles implémente des
 
 _Remarque : il ne faut pas confondre les interfaces de programmation avec des interfaces graphiques._
 
-## Principe
+## Principe d'une interface
 
 Une interface **n'est pas une classe**, elle contient uniquement les **prototypes des méthodes** qui devront être implémenté par la classe qui signe un "contrat" avec l'interface.
 

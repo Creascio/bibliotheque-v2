@@ -9,7 +9,7 @@ Cette structure fonctionne de manière identique à un vrai dictionnaire pour fa
 
 Nous allons voir dans ce cours l'implémentation la plus courante de `Map` en Java : `HashMap`.
 
-## HashMap
+## Le dictionnaire HashMap
 
 Une `HashMap` est un dictionnaire qui **hache les données** qu'il contient c'est à dire qu'il **crypte les données** pour les rendre **plus courtes en mémoire** et accélerer la recherche dans le dictionnaire.
 
@@ -17,9 +17,9 @@ L'**ordre de parution** des valeurs du dictionnaire n'est pas garanti lors d'un 
 
 On peut parcourir **la liste des clés** d'un dictionnaire, ou bien **la liste des valeurs** ou bien encore une **liste des associations clé-valeur**.
 
-_Remarque : un dictionnaire ne peut stocker que des objets que ce soit les clés ou les valeurs, ainsi si l'on souhaite stocker des valeurs de types primitifs on utilisera les classes correspondantes tout comme pour les listes (ex : Integer pour int, Boolean pour boolean, Character pour char, etc.)_
+_Remarque : un dictionnaire ne peut stocker que des objets que ce soit les clés ou les valeurs, ainsi si l'on souhaite stocker des valeurs de types primitifs on utilisera les classes correspondantes tout comme pour les listes (ex : Integer pour int, Boolean pour boolean, Character pour char, etc.)._
 
-### Méthodes
+### Les méthodes usuelles
 
 Voici une liste de quelques méthodes utiles de la classe `HashMap` :
 

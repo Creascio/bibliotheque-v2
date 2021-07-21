@@ -14,7 +14,7 @@ Toutes ces classes sont ce qu'on appelle des `Collection` car elles regroupent u
 
 Avant tout il faut savoir que les tableaux ainsi que les iterables peuvent être **parcouru via une boucle particulière** appelée le `forEach`.
 
-## forEach
+## La boucle forEach
 
 Le `forEach` en Java est une boucle très similaire au `for` et qui permet de **parcourir des structures de données de manière plus intuitive**.
 
@@ -47,7 +47,7 @@ Ici on parcourt le tableau de pages `livre`. Pour chaque page contenu dans `livr
 
 _Remarque : la boucle forEach permet de parcourir toutes les structures de données que nous allons voir dans ce cours._
 
-## List
+## Les listes
 
 Une `List` est une séquence d'objets qui peut être **organisée comme on le souhaite**.
 
@@ -86,7 +86,7 @@ ArrayList<Integer> notes;
 
 _Remarque : ces objets fonctionnent de manière similaire aux types primitifs mais, tout comme les autres classes, possèdent des méthodes permettant des manipulations plus avancées (se referer à la documentation). Il ne faut cependant pas en abuser et remplacer tout vos types primitifs par des objets si ce n'est pas nécessaire !_
 
-### ArrayList
+### l'ArrayList
 
 L'ArrayList est l'une des implémentations de la liste la plus commune. En mémoire elle est équivalente à un **tableau dyamique**.
 
@@ -134,7 +134,7 @@ _Remarque : il existe beaucoup d'autres méthodes plus situationnelles dans la c
 
 _Remarque : la plupart des méthodes de `Collections` se basent sur la comparaison des objets contenus pour fonctionner. Cette comparaison marche très bien et automatiquement pour des variables de type primitif mais pas pour des types complexes._
 
-### LinkedList
+### La LinkedList
 
 La `LinkedList` est une autre implémentation de la liste une peu moins commune. Elle représente en mémoire une **chaîne** ou une **file** de données. Chaque élément à un ordre dans la liste.
 
@@ -157,7 +157,7 @@ En plus des méthodes que l'on retrouve dans les autres implémentations de `Lis
 
 _Remarque : il existe d'autres implémentations de List mais nous ne les verrons pas ici._
 
-## Queue
+## Les Queue
 
 La `Queue` est une **file de donnée**, on l'utilise pour stocker des éléments de **manière temporaire avant traitement**.
 
@@ -194,13 +194,13 @@ fileAttente.pop();
 // dans la file d'attente
 ```
 
-### PriorityQueue
+### La PriorityQueue
 
 La `PriorityQueue` est une file de donnée dont l'ajout de donnée provoque un tri automatique. La PriorityQueue détecte un élément de comparaison entre les objets qui la composent et les trie. Autrement elle ne possède aucune fonctionnalité particulière supplémentaire.
 
 _Remarque : Il existe d'autres implémentations de Queue mais nous ne les verrons pas ici._
 
-## Set
+## Les Set
 
 Le `Set` est une structure de donnée similaire à la `List` mais il **n'autorise pas de doublon**.
 

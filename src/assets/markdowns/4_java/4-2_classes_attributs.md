@@ -6,7 +6,7 @@ Une classe Java est une **structure** permettant de décrire l'implémentation d
 
 Dans ce cous nous allons voir comment se construit un bloc classe ainsi que les objets et leurs caractéristiques.
 
-## Composition
+## Composition d'une classe Java
 
 Une classe est un bloc de code qui va contenir toutes les informations concernant nos objets :
 
@@ -32,12 +32,12 @@ int age;
 
 Ici on représente l'**age** d'un individu par un **nombre entier**. La variable s'appelle `age` et n'a pas encore de valeur.
 
-### Nommage
+### Nommage des éléments
 
 Par convention on nomme **les classes** en respectant le **PascalCase** (majuscule à chaque mot, pas d'espace ou de tiret).
 On nomme **les attributs et les méthodes** en respectant le **camelCase** (majuscule à partir du deuxième mot, pas d'espace ou de tiret).
 
-### Types
+### Types de donnée
 
 Ils existent en Java comme dans les autres langages deux catégories de type de donnée. Les types **primitifs** et les types **complexes**.
 
@@ -65,7 +65,7 @@ char note = 'A'
 boolean estGenial = true;
 ```
 
-## Les Tableaux
+## Les tableaux
 
 Tout comme dans de nombreux autres langages il est possible de créer des tableaux d'objets ou de valeurs en Java.
 
@@ -84,7 +84,7 @@ public class Toto {
 }
 ```
 
-## Visibilité
+## La visibilité d'un élément
 
 Il existe plusieurs niveau de visibilité pour les classes, les attributs ou bien encore les méthodes :
 
@@ -112,7 +112,7 @@ _Remarque : dans la grande majorité du temps les attributs d'objets sont en `pr
 
 _Remarque : bien que la visibilité `protected` existe, on ne l'utilise quasiment jamais car il est rare de créer une situation où elle serait utile._
 
-## Propriétés
+## Les propriétés d'un élément
 
 Il existe plusieurs propriétés pour les attributs :
 

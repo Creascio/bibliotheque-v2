@@ -6,7 +6,7 @@ Dans un lien d'**héritage** entre **une classe mère et sa classe fille**, la c
 
 Il est possible de construire les **méthodes** d'une certaines façons dans des liens d'héritage permettant de rendre le code **encore plus modulable**. C'est le **polymorphisme**.
 
-## Principe
+## Principe du polymorphisme
 
 Pour utiliser le polymorphisme sur une méthode entre une classe mère et une de ses classes filles, il faut que la méthode soit **implémentée de la même façon dans les deux classes** du point de vue du compilateur.
 

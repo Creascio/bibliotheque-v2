@@ -8,7 +8,7 @@ Ainsi on essaye toujours de coder en partant du **cas le plus général** vers *
 
 Cette façon de coder tend à entraîner une **hiérarchie entre les classes** d'où la notion d'héritage.
 
-## Principe
+## Principe de l'héritage
 
 L'héritage repose sur une relation **"mère-fille"** entre les classes. Cette relation est representée par le mot clé `extends` dans la signature d'une classe.
 
@@ -114,7 +114,7 @@ Ici la classe `Animal` représente **le cas général** et doit regrouper toutes
 
 Rien n'empêche ensuite les **spécifications** de la classe `Animal`, comme `Chien` (ou bien `Chat`, `Souris`, etc.) d'ajouter à ces propriétés communes de nouvelles propriétés qui les définissent de manière **plus précise**.
 
-## Abstraction
+## Principe de l'abstraction
 
 Lorsqu'on développe une classe représentant le cas général et ses spécifications, la norme veut que le cas général serve de **point de concentration des éléments en commun des spécifications** (attributs et méthodes).
 
@@ -212,7 +212,7 @@ Cette façon de faire permet de grandement réduire la **dépendance du programm
 
 Une variable de "type" `Animal` peut contenir des objets de types totalement différents tant que ces types hérite du type `Animal`.
 
-## Réduire les relations
+## Réduire les relations entre les classes
 
 En structurant notre code en faisant l'usage des **classes mères plutot que directement leurs spécifications**, comme on l'a fait dans l'exemple du `main` au dessus, on peut **réduire les dépendances entre les classes** de notre code et le rendre plus **durable** et **modulable**.
 
